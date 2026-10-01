@@ -8,10 +8,14 @@
     .btn{
         display: none !important;
     }
+    .mainbutton{
+        display: none !important;
+    }
     nav{
-        justify-content: center !important;
+        justify-content: space-between !important;
         padding: 1rem !important;
         width: 100% !important;
+        gap: 7rem !important;
     }
     #mainlogo{
         max-width: 30% !important;
@@ -24,7 +28,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    outline: 1px solid black !important;
 }
 nav{
     display: flex;
@@ -62,4 +65,58 @@ nav{
 }
 .hamburger{
     display: none;
+}
+#mainheading{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1rem;
+}
+.mainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* overflow: hidden; */
+}
+#mainimage{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+#mainpara{
+    font-family: "Inter", sans-serif;
+    color: #293FCC;
+    font-size: 20px;
+    margin-bottom: 1.4rem;
+}
+.buttonandpara{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.explorebtn{
+    padding: 12px 48px;
+    border: none;
+    background-color: #084CFF;
+    gap: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+#buttonpara{
+    font-size: 18px;
+    font-weight: 600;
+    color: #293FCC;
+    font-family: "Inter", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+    align-items: center;
+    
 }
