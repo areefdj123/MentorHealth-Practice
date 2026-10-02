@@ -30,67 +30,71 @@
         display: block !important;
     }
 
-    header {
-        padding-top: 5rem !important;
-    }
-
-    .maintext {
-        padding: 1rem !important;
-    }
-
-    #mainheading {
-        font-size: 40px !important;
-    }
-
-    #mainheading br {
-        display: none !important;
-    }
-
-    #mainpara {
-        font-size: 18px !important;
-    }
-
     .container {
-        padding: 1rem !important;
         flex-direction: column !important;
+        padding: 5rem 1rem !important;
         gap: 2rem !important;
     }
 
-    .firstsectionmaintext {
-        width: 100% !important;
+    #mainheading {
+        font-size: 36px !important;
     }
 
-    #firstsectionmainheading {
-        font-size: 30px !important;
-    }
-
-    #firstsectionmainpara {
-        font-size: 16px !important;
-        line-height: 20px !important;
-        margin-bottom: 1rem !important;
-    }
-
-    #secondsection {
-        padding: 2rem 0 !important;
-    }
-
-    .secondsectionimg {
-        width: 100% !important;
-    }
-
-    #secondsectionmainheading {
-        font-size: 30px !important;
-    }
-    #thirdsectionmainheading{
-        font-size: 35px !important;
-    }
-    .thirdsectionimg{
-        width: 100% !important;
-    }
-    #box1p1, #box2p1, #box3p1, #box4p1{
+    #mainpara {
         font-size: 16px !important;
     }
-    #imagebottompara{
+
+    #mainimg {
+        max-width: 100% !important;
+    }
+    #firstsectionmainheading{
+        font-size: 28px !important;
+        padding: 0 1rem !important;
+    }
+    #firstsectionmainpara{
+        font-size: 16px !important;
+        padding: 0 1rem !important;
+    }
+    #firstsectionmainpara br{
+        display: none !important;
+    }
+    .cards {
+        padding: 0 1rem !important;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6{
+        height: 452px !important;
+    }
+     #card1para {
+        font-size: 16px !important;
+    }
+
+    #card2para1,
+    #card2para2,
+    #card2para3 {
+        font-size: 16px !important;
+    }
+
+    #card3para1,
+    #card3para2 {
+        font-size: 16px !important;
+    }
+
+    #card4para {
+        font-size: 16px !important;
+    }
+
+    #card5para1,
+    #card5para2 {
+        font-size: 16px !important;
+    }
+
+    #card6para {
         font-size: 16px !important;
     }
     .ratingcard{
@@ -128,7 +132,6 @@
     .industries{
         width: 30% !important;
     }
-
 }
 
 @media (min-width:768px) and (max-width:1023px) {
@@ -163,41 +166,49 @@
         display: block !important;
     }
 
-    .maintext {
-        padding: 10rem 5rem !important;
-    }
-
     .container {
-        padding: 0 5rem !important;
-        gap: 5rem
+        padding: 8rem 5rem !important;
     }
 
-    .firstsectionmaintext {
-        width: 100% !important;
+    #mainheading {
+        font-size: 36px !important;
     }
 
-    #firstsectionmainheading {
-        font-size: 26px !important;
+    #mainpara {
+        font-size: 17px !important;
     }
 
-    #firstsectionmainpara {
-        font-size: 14px !important;
-        line-height: 20px !important;
+    #mainpara br {
+        display: none !important;
     }
-
-    #secondsectionmainheading {
-        font-size: 24px !important;
+    .cards{
+        padding: 0 1.2rem !important;
     }
-    #thirdsectionmainheading{
-        font-size: 30px !important;
-    }
-    .box1, .box2, .box3, .box4{
-        width: 221px !important;
-    }
-    #box1p1, #box2p1, #box3p1, #box4p1{
+     #card1para {
         font-size: 16px !important;
     }
-    #imagebottompara{
+
+    #card2para1,
+    #card2para2,
+    #card2para3 {
+        font-size: 16px !important;
+    }
+
+    #card3para1,
+    #card3para2 {
+        font-size: 16px !important;
+    }
+
+    #card4para {
+        font-size: 16px !important;
+    }
+
+    #card5para1,
+    #card5para2 {
+        font-size: 16px !important;
+    }
+
+    #card6para {
         font-size: 16px !important;
     }
     .ratingcard{
@@ -218,34 +229,36 @@
         flex-wrap: wrap !important;
     }
 
-
 }
-
-@media (min-width:1024px) and (max-width:1439px) {
-    #firstsectionmainheading {
-        font-size: 32px !important;
+    @media(min-width: 1024px) and (max-width: 1439px){
+    #card1para {
+        font-size: 17px !important;
     }
 
-    #firstsectionmainpara {
-        font-size: 18px !important;
+    #card2para1,
+    #card2para2,
+    #card2para3 {
+        font-size: 17px !important;
     }
 
-    #secondsectionmainheading {
-        font-size: 31px !important;
+    #card3para1,
+    #card3para2 {
+        font-size: 17px !important;
     }
-    .thirdsectionimg{
-        width: 100% !important;
+
+    #card4para {
+        font-size: 17px !important;
     }
-    #thirdsectionmainheading{
-        font-size: 36px !important;
+
+    #card5para1,
+    #card5para2 {
+        font-size: 17px !important;
     }
-    #box1p1, #box2p1, #box3p1, #box4p1{
-        font-size: 16px !important;
+
+    #card6para {
+        font-size: 17px !important;
     }
-    #imagebottompara{
-        font-size: 16px !important;
     }
-}
 
 * {
     margin: 0px;
@@ -297,78 +310,47 @@ nav {
     display: none;
 }
 
-header {
-    width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient(269.77deg, rgba(217, 217, 217, 0) 17.48%, rgba(0, 72, 254, 0.97) 72.6%, #293FCC 86.93%), url(/assets/background\ img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem;
 }
 
-.maintext {
-    padding: 10rem 8rem;
+#mainimg {
+    max-width: 40%;
+    height: auto;
 }
 
 #mainheading {
-    font-family: "Inter", sans-serif;
     font-size: 48px;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
-    color: rgba(255, 255, 255, 1);
     margin-bottom: 1rem;
 }
 
 #mainpara {
     font-family: "Inter", sans-serif;
-    font-weight: 500;
     font-size: 20px;
-    text-transform: capitalize;
-    color: rgba(255, 255, 255, 1);
-    margin-bottom: 1rem;
-}
-
-.link {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-#linkpara {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: rgba(255, 255, 255, 1);
-}
-
-.link i {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    color: rgba(84, 83, 83, 1);
 }
 
 #firstsection {
-    padding: 5rem 0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 8rem;
-    gap: 6rem;
-
-}
-
-.firstsectionmaintext {
-    width: 70%;
-    /* margin-right: 6rem; */
+    padding: 4rem 0;
+    background-color: rgba(240, 241, 251, 1);
 }
 
 #firstsectionmainheading {
-    font-size: 36px;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
     margin-bottom: 1rem;
 }
 
@@ -378,116 +360,316 @@ header {
     font-style: Regular;
     font-size: 20px;
     leading-trim: NONE;
-    line-height: 30px;
-    letter-spacing: -0.37px;
-    text-align: justify;
-    color: rgba(84, 83, 83, 1);
-
-}
-
-.firstsectionmainimg {
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-}
-
-#firstsectionmainimage {
-    max-width: 100%;
-    height: auto;
-}
-
-#secondsection {
-    background-color: rgba(240, 241, 251, 1);
-    padding: 6rem 0;
-}
-
-.secondsectionimg {
-    width: 170%;
-}
-
-#secondsectionmainimage {
-    max-width: 100%;
-    height: auto;
-}
-
-#secondsectionmainheading {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 36px;
-    leading-trim: NONE;
-    line-height: 120%;
+    line-height: 113.99999999999999%;
     letter-spacing: 0%;
+    text-align: center;
     text-transform: capitalize;
-
+    margin-bottom: 2rem;
 }
 
-#thirdsection {
-    padding: 5rem 0;
-}
-
-.thirdsectionimg {
-    width: 120%;
-}
-
-#thirdsectionmainimage {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-#thirdsectionmainheading {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 36px;
-    leading-trim: NONE;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-transform: capitalize;
-
-}
-
-.boxes {
-    display: flex;
-    flex-direction: column;
-}
-
-.box1,
-.box2,
-.box3,
-.box4 {
-    width: 271px;
-    height: 59px;
-    border-radius: 10px;
-    background-color: rgba(240, 241, 251, 1);
-    margin-top: 1rem;
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 5rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    width: 350px;
+    height: 512px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
 
 }
 
-#box1p1,
-#box2p1,
-#box3p1,
-#box4p1 {
+#card1img,
+#card2img,
+#card3img,
+#card4img,
+#card4img,
+#card5img,
+#card6img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#card1heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+
+}
+
+#card1para {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+
+}
+
+#card2heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+
+}
+
+.card2option1 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+#card2para1 {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 20px;
     leading-trim: NONE;
-    line-height: 113.99999999999999%;
-    letter-spacing: 0%;
-    text-transform: capitalize;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
 
 }
-#imagebottompara{
-    text-align: center;
-    margin-top: 1rem;
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
+
+.card2option1 i {
+    font-size: 6px;
     color: rgba(84, 83, 83, 1);
+}
+
+.card2option2 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card2option2 i {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card2para2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+
+}
+
+.card2option3 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card2option3 i {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card2para3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+
+}
+
+#card3heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+
+}
+
+.card3option1 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card3option1 {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card3para1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+}
+
+.card3option2 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card3option2 i {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card3para2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card4heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+}
+
+#card4para {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+    text-align: center;
+    padding: 1rem;
+}
+
+#card5heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.card5option1 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem
+}
+
+.card5option1 i {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card5para1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+}
+
+.card5option2 {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem
+}
+
+.card5option2 i {
+    font-size: 6px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card5para2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+}
+
+#card6heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.77px;
+    letter-spacing: -0.37px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+#card6para {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(84, 83, 83, 1);
+    text-align: center;
+    padding: 1rem;
 }
 #fifthsection{
     padding: 5rem 0;
@@ -689,4 +871,3 @@ footer{
 #possystemp2{
     margin-top: 1rem;
 }
-
