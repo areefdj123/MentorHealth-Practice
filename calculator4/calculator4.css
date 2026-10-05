@@ -1,3 +1,167 @@
+@media (min-width: 200px) and (max-width: 767px){
+     #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 30% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 1rem 1rem !important;
+    }
+    #firstsection{
+        padding: 1rem !important;
+    }
+    #secondsection{
+        padding: 1rem !important;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 2rem !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .container1{
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 2rem !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .box1{
+        width: 100% !important;
+    }
+    #box1heading{
+        font-size: 16px !important;
+    }
+    label{
+        font-size: 16px !important;
+    }
+    .box2{
+        width: 100% !important;
+    }
+    .smallbox3{
+        margin-right: 0 !important;
+    }
+    #plantype{
+        width: 100% !important;
+        font-size: 16px !important;
+    }
+    .endingline{
+        padding: 1rem !important;
+        flex-direction: column !important;
+    }
+    #endingpara{
+        font-size: 16px !important;
+        text-align: center !important;
+        margin-bottom: 1rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem 5rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 13% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 0rem 0 3rem !important;
+    }
+    #firstsection{
+        padding: 0 3rem 2rem !important;
+    }
+    #secondsection{
+        padding: 0 3rem 2rem !important;
+    }
+    .container{
+        flex-wrap: wrap !important;
+        row-gap: 2rem !important;
+    }
+    .container1{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        row-gap: 2rem !important;
+    }
+    .box1{
+        width: 100% !important;
+        height: 200px !important;
+        
+    }
+    #box1heading{
+        font-size: 16px !important;
+    }
+    .box2{
+        width: 100% !important;
+    }
+    #box2heading{
+        font-size: 16px !important;
+    }
+    label{
+        font-size: 16px;
+    }
+    .box2input{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .smallbox3{
+        margin-right: 0px !important;
+    }
+    .endingline{
+        padding: 0 3rem 2rem !important;
+    }
+    #endingpara{
+        font-size: 16px !important;
+    }
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -376,4 +540,109 @@ label {
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 1rem;
+}
+.smallbox3{
+    width: 230px;
+    height: 140px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 34px;
+    left: 633px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border: solid;
+    border-color: rgba(41, 63, 204, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 10rem;
+}
+#smallbox3mainpara{
+    text-align: center;
+    padding: .7rem;
+    background-color: rgba(41, 63, 204, 1);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.smallbox3option1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .3rem;
+}
+.smallbox3option2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem .3rem;
+}
+#smallboxoptionpara1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#smallboxoptionpara2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#smallboxoptionpara3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#smallboxoptionpara4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.endingline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem 2rem;
+}
+
+#endingpara {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 23.56px;
+    letter-spacing: -0.28px;
+    vertical-align: middle;
+}
+
+.nextbtn {
+    width: 105px;
+    height: 42px;
+    border-radius: 8.04px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 72, 254, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 23.56px;
+    letter-spacing: -0.28px;
+    vertical-align: middle;
+    cursor: pointer;
 }
