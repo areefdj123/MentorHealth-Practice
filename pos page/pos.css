@@ -1,4 +1,4 @@
-@media (min-width:200px) and (max-width:767px) {
+@media (min-width: 200px) and (max-width: 767px) {
     #navlink {
         display: none !important;
     }
@@ -30,15 +30,16 @@
         display: block !important;
     }
 
-    header {
-        background-position: center !important;
+    .container {
+        flex-direction: column !important;
+        padding: 5rem 1rem !important;
     }
 
     #mainheading {
-        font-size: 36px !important;
+        font-size: 30px !important;
     }
 
-    #mainheading i {
+    #mainheading br {
         display: none !important;
     }
 
@@ -46,40 +47,37 @@
         font-size: 16px !important;
     }
 
-    #mainpara i {
+    #mainpara br {
         display: none !important;
     }
 
-    #linkbtn {
-        padding: 10px 30px !important;
-        font-size: 14px !important;
-    }
-
-    #linkpara {
+    #mainpara2 {
         font-size: 16px !important;
     }
-
-    .container {
+    .container1{
         flex-direction: column !important;
         padding: 0 1rem !important;
     }
-
-    .maintext {
-        padding: 5rem 1rem !important;
+    #firstsection{
+        padding: 0rem 1rem !important;
     }
-
-    .box1,
-    .box2,
-    .box3,
-    .box4 {
+    #firstsectionmainheading{
+        text-align: center !important;
+    }
+    .box{
+        flex-direction: column !important;
+    }
+    #thirdsection{
+        padding: 5rem 0 !important;
+    }
+    .thirdsectionmaintext{
         width: 100% !important;
     }
-
-    #box1para,
-    #box2para,
-    #box3para,
-    #box4para {
-        font-size: 16px !important;
+    #thirdsectionmainheading1 br{
+        display: none !important;
+    }
+    #thirdsectionmainheading1{
+        font-size: 30px !important;
     }
     .ratingcard{
         width: 280px !important;
@@ -107,6 +105,10 @@
         justify-content: flex-start !important;
         flex-wrap: wrap !important;
     }
+    .container7{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
+    }
     .footerlogoimg{
         width: 30% !important;
     }
@@ -118,7 +120,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     #navlink {
         display: none !important;
     }
@@ -150,28 +152,69 @@
         display: block !important;
     }
 
-    header {
-        background-position: right !important;
+    #mainheading {
+        font-size: 30px !important;
     }
 
-    .maintext {
-        padding: 10rem 5rem !important;
-    }
-
-    .container {
-        flex-direction: column !important;
-        padding: 0 5rem !important;
-    }
-
-    #firstsectionmainpara {
+    #mainpara {
         font-size: 16px !important;
     }
 
-    #box1para,
-    #box2para,
-    #box3para,
-    #box4para {
+    #mainpara2 {
         font-size: 16px !important;
+    }
+
+    #mainheading br,
+    #mainpara br,
+    #mainpara2 br {
+        display: none !important;
+    }
+
+    .mainimg {
+        width: 220% !important;
+    }
+
+    #mainimage {
+        max-width: 120% !important;
+    }
+    .container1{
+        padding: 5rem !important;
+    }
+    #secondsectionmainheading{
+        font-size: 30px !important;
+    }
+    #secondsectionheading2,
+    #secondsectionheading3,
+    #seconsectionheading4{
+        font-size: 20px !important;
+    }
+    #secondsectionpara1,
+    #secondsectionpara2,
+    #secondsectionpara3{
+        font-size: 16px !important;
+    }
+    #secondsectionpara1 br,
+    #secondsectionpara2 br,
+    #secondsectionpara3 br{
+        display: none !important;
+    }
+    #thirdsectionmainheading1{
+        font-size: 30px !important;
+    }
+    #thirdsectionheading2,
+    #thirdsectionmainheading3,
+    #thirdsectionheading4{
+        font-size: 20px !important;
+    }
+    #thirdsectionpara1,
+    #thirdsectionpara2,
+    #thirdsectionpara3{
+        font-size: 16px !important;
+    }
+    #thirdsectionpara1 br,
+    #thirdsectionpara2 br,
+    #thirdsectionpara3 br{
+        display: none !important;
     }
     .ratingcard{
         height: 260px !important;
@@ -190,18 +233,8 @@
         justify-content: flex-start !important;
         flex-wrap: wrap !important;
     }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1439px) {
-    #box1para,
-    #box2para,
-    #box3para,
-    #box4para{
-        font-size: 16px !important;
-    }
-    #firstsectionmainpara{
-        font-size: 17px !important;
+    .container7{
+        padding: 0 5rem !important;
     }
 }
 
@@ -255,17 +288,16 @@ nav {
     display: none;
 }
 
-header {
-    width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.40) 0%), url(/assets/bmsheader.jpg);
-    background-size: cover;
-    background-position: right;
-    background-repeat: repeat;
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 5rem;
+    align-items: center;
 }
 
-.maintext {
-    padding: 10rem 8rem;
+#mainimage {
+    max-width: 100%;
+    height: auto;
 }
 
 #mainheading {
@@ -273,212 +305,243 @@ header {
     font-weight: 700;
     font-style: Bold;
     font-size: 48px;
-    line-height: 113.99999999999999%;
+    line-height: 120%;
     letter-spacing: 0%;
     text-transform: capitalize;
-    color: rgba(255, 255, 255, 1);
-    margin-bottom: 1rem;
+
 }
 
 #mainpara {
     font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: Medium;
+    font-weight: 400;
+    font-style: Regular;
     font-size: 20px;
     line-height: 113.99999999999999%;
     letter-spacing: 0%;
     text-transform: capitalize;
-    color: rgba(255, 255, 255, 1);
-
-}
-
-.linkbtn {
+    color: #545353;
     margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
 }
 
-#linkbtn {
-    padding: 12px 48px;
-    border: none;
-    border-radius: 8px;
-    background-color: rgba(41, 63, 204, 1);
+#mainpara2 {
     font-family: "Inter", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-}
-
-#linkpara {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    font-style: Semi Bold;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: #0048FE;
+    margin-top: 1rem;
+
 }
 
 #firstsection {
-    padding: 5rem 0 2rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.container {
+.box {
+    width: 908px;
+    height: 200px;
+    top: 800px;
+    left: 241px;
+    border: 1px solid #D9D9D94F;
+    background-color: #F0F1FF;
+    box-shadow: 0px 14px 12.2px 0px #0048FE14;
     display: flex;
-    padding: 0 5rem;
-    justify-content: space-around;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
 }
 
 #firstsectionmainheading {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-style: Bold;
-    font-size: 32px;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.firstsectionbtn {
+    padding: 12px 48px;
+    border-radius: 8px;
+    color: white;
+    background-color: #293FCC;
+    border: none;
+
+
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+#secondsectionmainimage{
+    max-width: 100%;
+    height: auto;
+}
+#secondsectionmainheading {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: capitalize;
 }
 
-#firstsectionmainpara {
+#secondsectionheading2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: 1rem;
+}
+#secondsectionheading3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: .1rem;
+}
+#secondsectionheading4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: .1rem;
+}
+#secondsectionpara1{
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-style: Regular;
+    font-style: Bold;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.37px;
-    color: rgba(84, 83, 83, 1);
-    margin-top: 1rem;
+    color: #545353;
+    margin-top: .1rem;
 }
-
-.box1,
-.box2,
-.box3,
-.box4 {
-    width: 309px;
-    height: 266px;
-    border-radius: 10px;
-    border-width: 1px;
-    margin-top: 1rem;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 1rem;
-    border: 1px solid rgba(217, 217, 217, 1);
-
+#secondsectionpara2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    color: #545353;
+    margin-top: .1rem;
 }
-
-#box1img {
+#secondsectionpara3{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    color: #545353;
+    margin-top: .1rem;
+}
+#thirdsectionmainimage{
     max-width: 100%;
     height: auto;
 }
-
-#box1heading {
+#thirdsectionmainheading1 {
     font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 23.77px;
-    letter-spacing: -0.37px;
-    vertical-align: middle;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
 }
-
-#box1para {
+#thirdsectionheading1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: 1rem;
+}
+#thirdsectionheading2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: .1rem;
+}
+#thirdsectionheading3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: .1rem;
+}
+#thirdsectionheading4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.37px;
+    margin-top: .1rem;
+}
+#thirdsectionpara1{
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-style: Regular;
+    font-style: Bold;
     font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    color: rgba(84, 83, 83, 1);
-
-}
-
-#box3img {
-    max-width: 100%;
-    height: auto;
-}
-
-#box3heading {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 23.77px;
+    line-height: 30px;
     letter-spacing: -0.37px;
-    vertical-align: middle;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    color: #545353;
+    margin-top: .1rem;
 }
-
-#box3para {
+#thirdsectionpara2{
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-style: Regular;
+    font-style: Bold;
     font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    color: rgba(84, 83, 83, 1);
-}
-
-#box2img {
-    max-width: 100%;
-    height: auto;
-}
-
-#box2heading {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 23.77px;
+    line-height: 30px;
     letter-spacing: -0.37px;
-    vertical-align: middle;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    color: #545353;
+    margin-top: .1rem;
 }
-
-#box2para {
+#thirdsectionpara3{
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-style: Regular;
+    font-style: Bold;
     font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    color: rgba(84, 83, 83, 1);
-}
-
-#box4img {
-    max-width: 100%;
-    height: auto;
-}
-
-#box4heading {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 23.77px;
+    line-height: 30px;
     letter-spacing: -0.37px;
-    vertical-align: middle;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-#box4para {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    color: rgba(84, 83, 83, 1);
+    color: #545353;
+    margin-top: .1rem;
 }
 #fifthsection{
     padding: 5rem 0;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem;
 }
 .ratingcard {
     width: 490px;
