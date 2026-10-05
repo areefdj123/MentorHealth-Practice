@@ -1,0 +1,325 @@
+@media (min-width: 200px) and (max-width: 767px) {
+    #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 30% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 1rem 1rem !important;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 1.5rem !important;
+    }
+    label{
+        font-size: 16px !important;
+    }
+    #mainheading{
+        padding: 1rem !important;
+    }
+    .buttons{
+        padding: 1rem !important;
+    }
+    #firstname{
+        width: 100% !important;
+    }
+    #mobilenumber{
+        width: 100% !important;
+    }
+    #company{
+        width: 100% !important;
+    }
+    #lastname{
+        width: 100% !important;
+    }
+    #email{
+        width: 100% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem 5rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 13% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 0rem 0 3rem !important;
+    }
+    .container{
+        gap: 5rem !important;
+    }
+    #mainheading{
+        padding: 5rem 3rem 0 !important;
+    }
+    .buttons{
+        padding: 0 3rem 5rem !important;
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 5rem;
+    border-bottom: 2px solid #F0F1FF;
+}
+
+#mainlogo {
+    max-width: 10%;
+    height: auto;
+    display: block;
+}
+
+#navlink {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#navlink a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #090F4E;
+}
+
+.btn {
+    padding: 12px 18px;
+    border: none;
+    background-color: #084CFF;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.backbutton a {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0rem 0 10rem;
+    text-decoration: none;
+    color: rgba(30, 30, 30, 1);
+    gap: .5rem;
+    width: 1%;
+}
+
+#backbtnpara {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#mainheading {
+    padding: 5rem 15.5rem 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 167px;
+    padding: 3rem 13rem;
+}
+
+.firstnameinput {
+    flex-direction: column;
+    display: flex;
+}
+
+label {
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    ;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+#firstname {
+    width: 300px;
+    height: 43px;
+    border: 2px solid rgba(171, 173, 172, 1);
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.phonenumberinput {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#mobilenumber {
+    width: 300px;
+    height: 43px;
+    border: 2px solid rgba(171, 173, 172, 1);
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.companyinput {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#company {
+    width: 300px;
+    height: 43px;
+    border: 2px solid rgba(171, 173, 172, 1);
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.lastnameinput {
+    display: flex;
+    flex-direction: column;
+}
+
+#lastname {
+    width: 300px;
+    height: 43px;
+    border: 2px solid rgba(171, 173, 172, 1);
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.emailinput {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    width: 300px;
+    height: 43px;
+    border: 2px solid rgba(171, 173, 172, 1);
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15rem 10rem;
+}
+
+.backbtn {
+    width: 105px;
+    height: 42px;
+    border-width: 1px;
+    border-radius: 8.04px;
+}
+
+.nextbtn {
+    width: 105px;
+    height: 42px;
+    border-radius: 8.04px;
+    border: none;
+    background-color: rgba(0, 72, 254, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 23.56px;
+    letter-spacing: -0.28px;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+}
+.backbtn{
+    width: 105px;
+    height: 42px;
+    border-radius: 8.04px;
+    border: 1px solid rgba(111, 111, 111, 1);
+    background-color: rgba(187, 188, 190, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 23.56px;
+    letter-spacing: -0.28px;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+}
