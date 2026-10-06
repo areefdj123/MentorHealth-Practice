@@ -1,0 +1,213 @@
+@media (min-width: 200px) and (max-width: 767px){
+    #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 30% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 1rem 1rem !important;
+        width: 100% !important;
+    }
+    #mainheading{
+        font-size: 30px !important;
+        padding: 0 1rem !important;
+    }
+    #mainpara{
+        font-size: 16px !important;
+        padding: 0 1rem !important;
+        line-height: 20px !important;
+    }
+    #mainpara br{
+        display: none !important;
+    }
+    .mainimg{
+        padding: 0 1rem !important;
+    }
+    #mainimage{
+        max-width: 100% !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px){
+    #navlink {
+        display: none !important;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .mainbutton {
+        display: none !important;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 1rem 5rem !important;
+        width: 100% !important;
+        gap: 7rem !important;
+    }
+
+    #mainlogo {
+        max-width: 13% !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+    .backbutton a{
+        padding: 3rem 0rem 0 3rem !important;
+        width: 30% !important;
+    }
+    #mainheading{
+        font-size: 30px !important;
+    }
+    #mainpara{
+        font-size: 20px !important;
+    }
+    .mainimg{
+        padding: 1rem;
+    }
+    #mainimage{
+        max-width: 60% !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    nav{
+        padding: 1rem 3rem !important;
+    }
+    .backbutton a{
+        padding: 3rem 0rem 0 3rem !important;
+        width: 25% !important;
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 5rem;
+    border-bottom: 2px solid #F0F1FF;
+}
+
+#mainlogo {
+    max-width: 10%;
+    height: auto;
+    display: block;
+}
+
+#navlink {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#navlink a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #090F4E;
+}
+
+.btn {
+    padding: 12px 18px;
+    border: none;
+    background-color: #084CFF;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.backbutton a {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0rem 0 10rem;
+    text-decoration: none;
+    color: rgba(30, 30, 30, 1);
+    gap: .5rem;
+    width: 25%;
+}
+
+#backbtnpara {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#mainheading {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 40px;
+    line-height: 23.56px;
+    letter-spacing: -0.28px;
+    vertical-align: middle;
+    color: rgba(41, 63, 204, 1);
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+#mainpara {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.mainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#mainimage{
+    max-width: 40%;
+    height: auto;
+}

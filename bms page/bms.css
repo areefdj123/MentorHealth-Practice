@@ -28,6 +28,7 @@
 
     .hamburger {
         display: block !important;
+        font-size: 1.5rem !important;
     }
 
     header {
@@ -66,8 +67,10 @@
 
     .maintext {
         padding: 5rem 1rem !important;
+    }   
+    .sections{
+        flex-direction: column !important;
     }
-
     .box1,
     .box2,
     .box3,
@@ -118,7 +121,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     #navlink {
         display: none !important;
     }
@@ -149,7 +152,9 @@
     .hamburger {
         display: block !important;
     }
-
+    .sidebar{
+        width: 50% !important;
+    }
     header {
         background-position: right !important;
     }
@@ -166,7 +171,9 @@
     #firstsectionmainpara {
         font-size: 16px !important;
     }
-
+    .sections{
+        gap: 1rem !important;
+    }
     #box1para,
     #box2para,
     #box3para,
@@ -193,7 +200,19 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
+    nav{
+        padding: 1rem 2rem !important;
+    }
+    .maintext{
+        padding: 10rem 5rem !important;
+    }
+    .sections{
+        gap: 1rem !important;
+    }
+    .box1, .box2, .box3, .box4{
+        width: 279px !important;
+    }
     #box1para,
     #box2para,
     #box3para,
@@ -202,6 +221,27 @@
     }
     #firstsectionmainpara{
         font-size: 17px !important;
+    }
+    #sixthsection{
+        padding: 0 5rem !important;
+    }
+    .container4{
+        padding: 8rem 3rem 5rem !important;
+    }
+    .services{
+        font-size: 12px !important;
+    }
+    .bms{
+        font-size: 12px !important;
+    }
+    .assurance{
+        font-size: 12px !important;
+    }
+    .industries{
+        font-size: 12px !important;
+    }
+    .possystem{
+        font-size: 12px !important;
     }
 }
 
@@ -254,7 +294,50 @@ nav {
 .hamburger {
     display: none;
 }
-
+#sidebarlinks li{
+    list-style: none;
+    border-bottom: 1px solid rgb(164, 165, 171);
+    padding: 1rem;
+}
+#sidebarlinks a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #090F4E;
+    margin-bottom: 1rem;
+}
+.sidebar{
+    position: fixed;
+    display:  none;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: white;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 2rem 0;
+}
+.hidebtn{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+.sidebarbutton{
+    padding: 0 1rem;
+}
+.sidebarbtn{
+    padding: 12px 18px;
+    border: none;
+    background-color: #084CFF;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+}
 header {
     width: 100%;
     min-height: 100vh;
@@ -352,7 +435,10 @@ header {
     color: rgba(84, 83, 83, 1);
     margin-top: 1rem;
 }
-
+.sections{
+    display: flex;
+    gap: 1rem !important;
+}
 .box1,
 .box2,
 .box3,

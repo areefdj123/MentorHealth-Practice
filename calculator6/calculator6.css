@@ -32,34 +32,46 @@
     .backbutton a{
         padding: 3rem 1rem 1rem !important;
     }
-    .container{
-        flex-direction: column !important;
+    #firstsection{
         padding: 1rem !important;
     }
-    .box1{
+    #secondsection{
+        padding: 1rem !important;
+    }
+    .container1{
         width: 100% !important;
     }
-    .inbox1{
-        width: 100% !important;
+    #mainheading{
+        font-size: 30px !important;
     }
-    .box2{
-        width: 100% !important;
+    #firstsectionmainheading{
+        font-size: 18px !important;
     }
-    .inbox2{
-        width: 100% !important;
+    .smallboxes{
+        flex-wrap: wrap !important;
     }
-    #plancategory{
-        width: 100% !important;
+    .smallboxes1{
+        flex-wrap: wrap !important;
     }
-    #leftsidemainimage{
-        max-width: 100% !important;
+    #smallbox1heading,
+    #smallbox2heading,
+    #smallbox3heading,
+    #smallbox4heading{
+        font-size: 16px !important;
+    }
+    #firstpara, #secondpara, #thirdpara, #fourthpara, #fifthpara{
+        font-size: 16px !important;
+    }
+    #smallbox2option1para{
+        font-size: 16px !important;
     }
     .endingline{
-        padding: 1rem !important;
+        padding: 4rem 1rem 2rem !important;
         flex-direction: column !important;
     }
     #endingpara{
-        font-size: 16px !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
         text-align: center !important;
         margin-bottom: 1rem !important;
     }
@@ -98,52 +110,48 @@
     .backbutton a{
         padding: 3rem 0rem 0 3rem !important;
     }
-    #mainheading{
-        margin-bottom: 1rem !important;
+    #firstsection{
+        padding: 1rem 3rem !important;
     }
-    .container{
-        padding: 1rem !important;
+    #secondsection{
+        padding: 1rem 3rem !important;
     }
-    .box1,
-    .box2{
-        width: 380px !important;
+    .container1{
+        width: 100% !important;
     }
-    #box1heading{
-        font-size: 18px !important;
+    .smallboxes{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
     }
-    #box2heading{
-        font-size: 18px;
-    }
-    label{
-        font-size: 16px !important;
-    }
-    #leftsidemainimage{
-        max-width: 100% !important;
+    .smallboxes1{
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
     }
     .endingline{
-        padding: 0 1rem 2rem !important;
+        padding: 4rem 3rem 2rem !important;
     }
-
 }
-@media (min-width: 1024px) and (max-width: 1200px){
+@media (min-width: 1024px) and (max-width: 1200px) {
     nav{
-        padding: 1rem 2rem !important;
+        padding: 1rem 3rem !important;
     }
-    .container{
-        gap: 5rem !important;
+    #firstsection{
+        padding: 1rem 6rem !important;
     }
-    #leftsidemainimage{
-        max-width: 100% !important;
+    #secondsection{
+        padding: 1rem 6rem !important;
+    }
+    .container1{
+        width: 75% !important;
     }
     .endingline{
-        padding: 0 5rem 2rem !important;
+        padding: 4rem 6rem 2rem !important;
     }
 }
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* outline: 2px solid red !important; */
 }
 
 nav {
@@ -216,137 +224,165 @@ nav {
     letter-spacing: 0%;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 1rem;
+    margin-top: 1rem;
 
 }
-
+#firstsection{
+    padding: 1rem 10rem;
+}
 .container {
+    padding: 3rem 2rem 1rem;
+    border: 1px solid rgba(171, 173, 172, 1);
     display: flex;
     justify-content: space-between;
-    padding: 5rem;
-}
-
-.box1 {
-    width: 490px;
-    height: 246px;
+    flex-direction: column;
+    gap: 2rem;
     border-radius: 8px;
+}
+.container1 {
+    padding: 3rem 2rem 1rem;
     border: 1px solid rgba(171, 173, 172, 1);
-    margin-bottom: 4rem;
-    padding: 1.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.inbox1 {
-    background-color: rgba(41, 63, 204, 0.06);
-    width: 474px;
-    height: 198px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
     border-radius: 8px;
-    padding: 1rem;
-
+    width: 60%;
 }
 
-#box1heading {
+#firstsectionmainheading {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: Medium;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin-bottom: 2rem;
 
 }
 
-label {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-
-}
-
-.boxinput {
+.smallboxes {
     display: flex;
-    flex-direction: column;
-}
-
-#plancategory {
-    width: 300px;
-    height: 36px;
-    padding: 0 1rem;
-    margin-top: 1rem;
-    border: 2px solid rgba(171, 173, 172, 1);
-    color: rgba(187, 188, 190, 1);
-}
-
-.box2 {
-    width: 490px;
-    height: 246px;
-    border-radius: 8px;
-    border: 1px solid rgba(171, 173, 172, 1);
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    gap: 3rem;
+}
+.smallboxes1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
 }
 
-.inbox2 {
-    background-color: rgba(41, 63, 204, 0.06);
-    width: 474px;
-    height: 198px;
-    border-radius: 8px;
-    padding: 1rem;
+.smallbox1,
+.smallbox2,
+.smallbox3,
+.smallbox4 {
+    width: 230px;
+    height: 304px;
+
 }
 
-#box2heading {
+#smallbox1heading {
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: rgba(41, 63, 204, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    margin-bottom: 2rem;
-
-}
-
-.leftside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#leftsidemainimage {
-    max-width: 70%;
-    height: auto;
-}
-
-.leftsidebtn {
-    width: 155px;
-    height: 42px;
-    border-radius: 8.04px;
-    background-color: rgba(0, 72, 254, 1);
-    border: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-style: Semi Bold;
-    font-size: 16px;
-    line-height: 23.56px;
-    letter-spacing: -0.28px;
-    vertical-align: middle;
     color: white;
-    cursor: pointer;
+
 }
 
+#firstpara,
+#secondpara,
+#thirdpara,
+#fourthpara {
+    border-bottom: 1px solid rgba(41, 63, 204, 0.1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: .9rem;
+
+}
+
+#fifthpara {
+    border-bottom: 1px solid rgba(41, 63, 204, 0.1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: .8rem;
+}
+
+#smallbox2heading {
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.smallbox2option1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    padding: .6rem;
+    border-bottom: 1px solid rgba(41, 63, 204, 0.1);
+}
+
+#smallbox2option1para {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#smallbox3heading {
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+#secondsection{
+    padding: 0 10rem 1rem;
+}
 .endingline {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10rem 2rem;
+    padding: 4rem 10rem 2rem;
 }
 
 #endingpara {
@@ -374,4 +410,5 @@ label {
     letter-spacing: -0.28px;
     vertical-align: middle;
     cursor: pointer;
+    
 }

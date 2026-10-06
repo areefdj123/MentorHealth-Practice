@@ -13,21 +13,42 @@
 <body>
     <div class="megamenu">
         <nav>
+            <div class="sidebar">
+                <div class="hidebtn" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(8, 76, 255);"></i></div>
+                <div class="sidebarlinks">
+                    <ul id="sidebarlinks">
+                        <li><a href="/about-us/about.html">About Us</a></li>
+                        <li><a href="/servicepage/service.html">Services</a></li>
+                        <li><a href="/bms page/bms.html">BMS</a></li>
+                        <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                        <li><a href="/industries- page/industries.html">Industries</a></li>
+                        <li><a href="/pos page/pos.html">POS System</a></li>
+                        <li><a href="">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="sidebarbutton">
+                    <a href="/calculator1/calculator1.html">
+                        <button class="sidebarbtn">Get Started</button>
+                    </a>
+                </div>
+            </div>
             <img id="mainlogo" src="/assets/mentorhealth logo.png" alt="">
-            <div class="hamburger"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
             <div class="navlinks">
                 <ul id="navlink">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">BMS</a></li>
-                    <li><a href="">Assurance</a></li>
-                    <li><a href="">Industries</a></li>
-                    <li><a href="">POS System</a></li>
+                    <li><a href="/about-us/about.html">About Us</a></li>
+                    <li><a href="/servicepage/service.html">Services</a></li>
+                    <li><a href="/bms page/bms.html">BMS</a></li>
+                    <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                    <li><a href="/industries- page/industries.html">Industries</a></li>
+                    <li><a href="/pos page/pos.html">POS System</a></li>
                     <li><a href="">Blogs</a></li>
                 </ul>
             </div>
             <div class="mainbutton">
-                <button class="btn">Get Started</button>
+                <a href="/calculator1/calculator1.html">
+                    <button class="btn">Get Started</button>
+                </a>
             </div>
         </nav>
     </div>
@@ -47,21 +68,23 @@
                 <h1 id="firstsectionmainheading">Mentor Health <span style="color: rgba(41, 63, 204, 1);">Pakistan's first</span> Shariah-compliant health fintech with SECP TPA license</h1>
                 <p id="firstsectionmainpara">Empowering Pakistan’s healthcare ecosystem with seamless, cashless, and Shariah-compliant services.</p>
             </div>
-            <div class="section1">
-                <div class="box1">
-                    <img id="box1img" src="/assets/box1img.png" alt="">
-                    <h1 id="box1heading">Pre-Surgery <br> Assistance</h1>
-                    <p id="box1para">Personalized consultations, <br> estimates, and discounted <br> surgery packages with <br> expert teams</p>
+            <div class="sections">
+
+                <div class="section1">
+                    <div class="box1">
+                        <img id="box1img" src="/assets/box1img.png" alt="">
+                        <h1 id="box1heading">Pre-Surgery <br> Assistance</h1>
+                        <p id="box1para">Personalized consultations, <br> estimates, and discounted <br> surgery packages with <br> expert teams</p>
+                    </div>
+                    <div class="box3">
+                        <img id="box3img" src="/assets/box3img.png" alt="">
+                        <h1 id="box3heading">Post-Surgery Care</h1>
+                        <p id="box3para">Follow-up consultations, <br> medication management, <br> and rehabilitation support to <br> ensure complete recovery.</p>
+                    </div>
                 </div>
-                <div class="box3">
-                    <img id="box3img" src="/assets/box3img.png" alt="">
-                    <h1 id="box3heading">Post-Surgery Care</h1>
-                    <p id="box3para">Follow-up consultations, <br> medication management, <br> and rehabilitation support to <br> ensure complete recovery.</p>
-                </div>
-            </div>
-            <div class="section2">
-                <div class="box2">
-                    <img id="box2img" src="/assets/box2img.png" alt="">
+                <div class="section2">
+                    <div class="box2">
+                        <img id="box2img" src="/assets/box2img.png" alt="">
                     <h1 id="box2heading">Cashless <br> Hospitalization</h1>
                     <p id="box2para">Cashless surgeries with <br> discounts using health funds <br> or insurance.</p>
                 </div>
@@ -71,6 +94,7 @@
                     <p id="box4para">350+ hospitals across <br> Pakistan, providing access to <br> leading surgeons and <br> specialists.</p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section id="fifthsection">
@@ -95,7 +119,9 @@
                     <h1 id="boxmainheading">Calculate Your Assurance</h1>
                     <p id="boxmainpara1">Super-charged healthcare</p>
                     <p id="boxmainpara2">benefits for modern teams</p>
-                    <button class="calculatebtn">Calculate Now</button>
+                    <a href="/calculator1/calculator1.html">
+                        <button class="calculatebtn">Calculate Now</button>
+                    </a>
             </div>
         </div>
     </section>
@@ -143,5 +169,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
+        }
+        function hidesidebar(){
+            const hidesidebar = document.querySelector('.sidebar')
+            hidesidebar.style.display = 'none';
+        }
+    </script>
 </body>
 </html>

@@ -13,21 +13,42 @@
 <body>
     <div class="megamenu">
         <nav>
+            <div class="sidebar">
+                <div class="hidebtn" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(8, 76, 255);"></i></div>
+                <div class="sidebarlinks">
+                    <ul id="sidebarlinks">
+                        <li><a href="/about-us/about.html">About Us</a></li>
+                        <li><a href="/servicepage/service.html">Services</a></li>
+                        <li><a href="/bms page/bms.html">BMS</a></li>
+                        <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                        <li><a href="/industries- page/industries.html">Industries</a></li>
+                        <li><a href="/pos page/pos.html">POS System</a></li>
+                        <li><a href="">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="sidebarbutton">
+                    <a href="/calculator1/calculator1.html">
+                        <button class="sidebarbtn">Get Started</button>
+                    </a>
+                </div>
+            </div>
             <img id="mainlogo" src="/assets/mentorhealth logo.png" alt="">
-            <div class="hamburger"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
             <div class="navlinks">
                 <ul id="navlink">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">BMS</a></li>
-                    <li><a href="">Assurance</a></li>
-                    <li><a href="">Industries</a></li>
-                    <li><a href="">POS System</a></li>
+                    <li><a href="/about-us/about.html">About Us</a></li>
+                    <li><a href="/servicepage/service.html">Services</a></li>
+                    <li><a href="/bms page/bms.html">BMS</a></li>
+                    <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                    <li><a href="/industries- page/industries.html">Industries</a></li>
+                    <li><a href="/pos page/pos.html">POS System</a></li>
                     <li><a href="">Blogs</a></li>
                 </ul>
             </div>
             <div class="mainbutton">
-                <button class="btn">Get Started</button>
+                <a href="/calculator1/calculator1.html">
+                    <button class="btn">Get Started</button>
+                </a>
             </div>
         </nav>
     </div>
@@ -139,7 +160,9 @@
                     <h1 id="boxmainheading">Calculate Your Assurance</h1>
                     <p id="boxmainpara1">Super-charged healthcare</p>
                     <p id="boxmainpara2">benefits for modern teams</p>
-                    <button class="calculatebtn">Calculate Now</button>
+                    <a href="/calculator1/calculator1.html">
+                        <button class="calculatebtn">Calculate Now</button>
+                    </a>
             </div>
         </div>
     </section>
@@ -187,5 +210,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
+        }
+        function hidesidebar(){
+            const hidesidebar = document.querySelector('.sidebar')
+            hidesidebar.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
