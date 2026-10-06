@@ -13,27 +13,48 @@
 <body>
     <div class="megamenu">
         <nav>
+            <div class="sidebar">
+                <div class="hidebtn" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(8, 76, 255);"></i></div>
+                <div class="sidebarlinks">
+                    <ul id="sidebarlinks">
+                        <li><a href="/about-us/about.html">About Us</a></li>
+                        <li><a href="/servicepage/service.html">Services</a></li>
+                        <li><a href="/bms page/bms.html">BMS</a></li>
+                        <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                        <li><a href="/industries- page/industries.html">Industries</a></li>
+                        <li><a href="/pos page/pos.html">POS System</a></li>
+                        <li><a href="">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="sidebarbutton">
+                    <a href="/calculator1/calculator1.html">
+                        <button class="sidebarbtn">Get Started</button>
+                    </a>
+                </div>
+            </div>
             <img id="mainlogo" src="/assets/mentorhealth logo.png" alt="">
-            <div class="hamburger"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(8, 76, 255);"></i></div>
             <div class="navlinks">
                 <ul id="navlink">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">BMS</a></li>
-                    <li><a href="">Assurance</a></li>
-                    <li><a href="">Industries</a></li>
-                    <li><a href="">POS System</a></li>
+                    <li><a href="/about-us/about.html">About Us</a></li>
+                    <li><a href="/servicepage/service.html">Services</a></li>
+                    <li><a href="/bms page/bms.html">BMS</a></li>
+                    <li><a href="/Assurance page/assurance.html">Assurance</a></li>
+                    <li><a href="/industries- page/industries.html">Industries</a></li>
+                    <li><a href="/pos page/pos.html">POS System</a></li>
                     <li><a href="">Blogs</a></li>
                 </ul>
             </div>
             <div class="mainbutton">
-                <button class="btn">Get Started</button>
+                <a href="/calculator1/calculator1.html">
+                    <button class="btn">Get Started</button>
+                </a>
             </div>
         </nav>
     </div>
     <header>
         <div class="backbutton">
-            <a class="backoption" href="">
+            <a class="backoption" href="/index.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p id="backbtnpara">Back to website</p>
             </a>
@@ -44,5 +65,87 @@
             <img id="mainimage" src="/assets/calculatorlastimg.png" alt="">
         </div>
         </header>
+        <section id="fifthsection">
+        <div class="container7">
+            <div class="ratingcard">
+                <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
+                <h1 id="cardpersonname">Rajeev Kunwar</h1>
+                <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
+                <img id="starsimg" src="/assets/stars.png" alt="">
+                <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
+            </div>
+            <div class="groupimage">
+                <img id="groupimg" src="/assets/Group 7.png" alt="">
+        </div>
+    </section>
+    <section id="sixthsection">
+        <div class="bigbox">
+                <div class="container3mainimg">
+                    <img id="container3mainimage" src="/assets/Securing Your Future with Free Life Insurance Policy Illustrations 1.png" alt="">
+                </div>
+                <div class="boxmaintext">
+                    <h1 id="boxmainheading">Calculate Your Assurance</h1>
+                    <p id="boxmainpara1">Super-charged healthcare</p>
+                    <p id="boxmainpara2">benefits for modern teams</p>
+                    <a href="/calculator1/calculator1.html">
+                        <button class="calculatebtn">Calculate Now</button>
+                    </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container4">
+            <div class="footerlogoimg">
+                <img id="footerlogo" src="/assets/footerlogo.png" alt="">
+            </div>
+            <div class="services">
+                <h3 id="services">SERVICES</h3>
+                <p id="servicep1">Health Assurance Plans</p>
+                <p id="servicep2">Preventive Care Solutions</p>
+                <p id="servicep3">Cashless OPD & IPD Access</p>
+                <p id="servicep4">Telemedicine & Virtual Triage</p>
+                <p id="servicep5">Employee Health Management Tools</p>
+            </div>
+            <div class="bms">
+                <h3 id="bms">BMS</h3>
+                <p id="bmsp1">Pre-Surgery Assistance</p>
+                <p id="bmsp2">Cashless Hospitalization</p>
+                <p id="bmsp3">Post-Surgery Care</p>
+                <p id="bmsp4">Wide Network Access</p>
+            </div>
+            <div class="assurance">
+                <h3 id="assurance">ASSURANCE</h3>
+                <p id="assurancep1">Comprehensive Financial Coverage</p>
+                <p id="assurancep2">Preventive Care</p>
+                <p id="assurancep3">Data-Driven Insights & AI Integration</p>
+                <p id="assurancep4">Cost Management</p>
+            </div>
+            <div class="industries">
+                <h3 id="industries">INDUSTRIES</h3>
+                <p id="industriesp1">Employers</p>
+                <p id="industriesp2">Insurance Companies</p>
+                <p id="industriesp3">Government Healthcare</p>
+                <p id="industriesp4">Providers</p>
+            </div>
+            <div class="possystem">
+                <h3 id="possystem">POS SYSTEM</h3>
+                <p id="possystemp1">Users</p>
+                <p id="possystemp2">Providers</p>
+            </div>
+            <div class="sociallinks">
+                <img id="socialicon" src="/assets/social img.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
+        }
+        function hidesidebar(){
+            const hidesidebar = document.querySelector('.sidebar')
+            hidesidebar.style.display = 'none';
+        }
+    </script>
 </body>
 </html>

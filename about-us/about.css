@@ -331,6 +331,7 @@ nav {
 
 .hamburger {
     display: none;
+    font-size: 1.5rem;
 }
 #sidebarlinks li{
     list-style: none;

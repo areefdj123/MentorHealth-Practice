@@ -66,6 +66,46 @@
         text-align: center !important;
         margin-bottom: 1rem !important;
     }
+    .container7{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+    .ratingcard{
+        width: 100% !important;
+    }
+    #ratingcardimg{
+        max-width: 26% !important;
+    }
+    #groupimg{
+        max-width: 100% !important;
+    }
+    #sixthsection{
+        padding: 1rem !important;
+    }
+    .bigbox{
+        flex-direction: column !important;
+        padding: 2rem 1rem !important;
+        width: 100% !important;
+        gap: 2rem !important;
+    }
+    #boxmainheading{
+        font-size: 40px !important;
+    }
+    .container4{
+        padding: 1rem !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap !important;
+    }
+    .footerlogoimg{
+        width: 30% !important;
+    }
+    .bms{
+        width: 30% !important;
+    }
+    .industries{
+        width: 30% !important;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 1023px){
@@ -99,6 +139,9 @@
     .hamburger {
         display: block !important;
     }
+    .sidebar{
+        width: 50% !important;
+    }
     .backbutton a{
         padding: 3rem 0rem 0 3rem !important;
     }
@@ -111,11 +154,60 @@
     .endingline{
         padding: 4rem 3rem 2rem !important;
     }
+    .container7{
+        padding: 0 1rem !important;
+        gap: 2rem !important;
+    }
+    .ratingcard{
+        height: 260px !important;
+    }
+    #sixthsection{
+        padding: 0rem 5rem 0 !important;
+    }
+    .bigbox{
+        padding: 3rem 1rem !important;
+    }
+    #boxmainheading{
+        font-size: 30px !important;
+    }
+    .container4{
+        padding: 5rem !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap !important;
+    }
+    .container7{
+        padding: 0 3rem !important;
+    }
 }
 @media (max-width: 1024px) and (max-width: 1200px){
     nav{
         padding: 1rem 3rem !important;
     }
+    .container7{
+        padding: 0 5rem !important;
+    }
+    #sixthsection{
+        padding: 0 5rem !important;
+    }
+    .container4{
+        padding: 8rem 3rem 5rem !important;
+    }
+    .services{
+        font-size: 12px !important;
+    }
+    .bms{
+        font-size: 12px !important;
+    }
+    .assurance{
+        font-size: 12px !important;
+    }
+    .industries{
+        font-size: 12px !important;
+    }
+    .possystem{
+        font-size: 12px !important;
+    }
+
 }
 * {
     margin: 0px;
@@ -164,8 +256,52 @@ nav {
 
 .hamburger {
     display: none;
+    font-size: 1.5rem;
 }
-
+#sidebarlinks li{
+    list-style: none;
+    border-bottom: 1px solid rgb(164, 165, 171);
+    padding: 1rem;
+}
+#sidebarlinks a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #090F4E;
+    margin-bottom: 1rem;
+}
+.sidebar{
+    position: fixed;
+    display:  none;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: white;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 2rem 0;
+}
+.hidebtn{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+.sidebarbutton{
+    padding: 0 1rem;
+}
+.sidebarbtn{
+    padding: 12px 18px;
+    border: none;
+    background-color: #084CFF;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 16px;
+}
 .backbutton a {
     display: flex;
     align-items: center;
@@ -375,4 +511,210 @@ nav {
     vertical-align: middle;
     cursor: pointer;
     
+}
+#fifthsection{
+    padding: 5rem 0;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+.ratingcard {
+    width: 490px;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    padding: 2rem 1.5rem;
+}
+#ratingcardimg{
+    max-width: 13%;
+    height: auto;
+    display: block;
+    border-radius: 132px;
+    margin-bottom: .5rem;
+}
+#cardpersonname{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: rgba(38, 46, 38, 1);
+    margin-bottom: .2rem;
+}
+#cardpersonpara{
+    font-size: 15.4px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(111, 111, 111, 1);
+}
+#starsimg{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 1rem;
+}
+#cardpara{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-top: 2rem;
+    color: rgba(111, 111, 111, 1);
+}
+#groupimg{
+    max-width: 90%;
+    height: auto;
+    display: block;
+}
+#sixthsection{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #090F4E 50%);
+    padding: 0 10rem;
+
+}
+.bigbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+    gap: 10rem;
+    background-color: rgba(41, 63, 204, 1);
+    border-radius: 29.49px;
+}
+#container3mainimage{
+    max-width: 120%;
+    height: auto;
+    display: block;
+    border-radius: 132px;
+}
+#boxmainheading{
+    font-size: 57.3px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+#boxmainpara1{
+    font-size: 15.4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+#boxmainpara2{
+    font-size: 15.4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.calculatebtn{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8.04px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(41, 63, 204, 1);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.429);
+    background-color: rgba(9, 15, 78, 1);
+}
+.container4{
+    padding: 8rem 6rem 5rem;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 4rem;
+}
+.footerlogoimg{
+    width: 20%;
+}
+#footerlogo{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.services{
+    width: 25%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+#services{
+    font-weight: 400;
+    font-size: 14px;
+}
+#servicep1,
+#servicep2,
+#servicep3,
+#servicep4,
+#servicep5{
+    margin-top: 1rem;
+}
+.bms{
+    width: 20%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+#bms{
+    font-size: 14px;
+    font-weight: 400;
+}
+#bmsp1,
+#bmsp2,
+#bmsp3,
+#bmsp4{
+    margin-top: 1rem;
+}
+.assurance{
+    width: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+#assurance{
+    font-size: 14px;
+    font-weight: 400;
+}
+#assurancep1,
+#assurancep2,
+#assurancep3,
+#assurancep4{
+    margin-top: 1rem;
+}
+.industries{
+    width: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+#industries{
+    font-size: 14px;
+    font-weight: 400;
+}
+#industriesp1,
+#industriesp2,
+#industriesp3,
+#industriesp4{
+    margin-top: 1rem;
+}
+.possystem{
+    width: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+#possystem{
+    font-size: 14px;
+    font-weight: 400;
+}
+#possystemp1,
+#possystemp2{
+    margin-top: 1rem;
 }
