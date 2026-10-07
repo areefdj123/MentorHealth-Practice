@@ -302,6 +302,160 @@
         font-size: 12px !important;
     }
     }
+    @media (min-width: 1441px) and (max-width: 2560px){
+        #navlink a{
+        font-size: 23px !important;
+    }
+    .btn{
+        padding: 16px 58px !important;
+        font-size: 22px !important;
+    }
+    #mainheading{
+        font-size: 60px !important;
+    }
+    #mainpara{
+        font-size: 26px !important;
+    }
+    #mainpara2{
+        font-size: 26px !important;
+    }
+    #headerimg1{
+        top: 206px !important;
+        left: 636px !important;
+    }
+    #headerimg2{
+        top: 288px !important;
+        left: 2044px !important;
+    }
+    #headerimg3{
+        top: 640px !important;
+        left: 1856px !important;
+    }
+    #headerimg4{
+        top: 580px !important;
+        left: 570px !important;
+    }
+    .container{
+        padding: 0 15rem !important;
+        gap: 16rem !important;
+    }
+    #firstsectionmainheading{
+        font-size: 55px !important;
+    }
+    #firstsectionmainpara{
+        font-size: 26px !important;
+    }
+    .box1, .box2, .box3, .box4 {
+        width: 750px !important;
+        height: 300px !important;
+    }
+    #numberheadingbox1,
+    #numberheading2,
+    #numberheading3,
+    #numberheading4{
+        font-size: 24px !important;
+    }
+    #box1heading,
+    #box2heading,
+    #box3heading,
+    #box4heading{
+        font-size: 30px !important;
+        margin-bottom: .5rem !important;
+    }
+    #box1para1,
+    #box1para2,
+    #box2para1,
+    #box2para2,
+    #box3para1,
+    #box3para2,
+    #box4para{
+        font-size: 26px !important;
+        margin-bottom: .5rem !important;
+        line-height: 30px !important;
+    }
+    #optionsheading{
+        font-size: 55px !important;
+    }
+    #optionspara{
+        font-size: 26px !important;
+    }
+    #option1para, #option2para, #option3para{
+        font-size: 22px !important;
+    }
+    .container7{
+        padding: 0 15rem !important;
+        gap: 15rem !important;
+    }
+    .ratingcard{
+        width: 1000px !important;
+        height: 440px !important;
+    }
+    #cardpersonname{
+        font-size: 30px !important;
+    }
+    #cardpersonpara{
+        font-size: 26px !important;
+    }
+    #cardpara{
+        font-size: 24px !important;
+    }
+    #groupimg{
+        max-width: 100% !important;
+    }
+    #sixthsection{
+        padding: 0 30rem !important;
+    }
+    .bigbox{
+        padding: 5rem 10rem !important;
+    }
+    #boxmainpara1{
+        font-size: 26px !important;
+    }
+    #boxmainpara2{
+        font-size: 26px !important;
+    }
+    .footerlogoimg{
+        width: 15% !important;
+    }
+    #footerlogo{
+        max-width: 50% !important;
+    }
+    .services{
+        font-size: 24px !important;
+        width: 15% !important;
+    }
+    #services{
+        font-size: 26px !important;
+    }
+    .bms{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #bms{
+        font-size: 26px !important;
+    }
+    .assurance{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #assurance{
+        font-size: 26px !important;
+    }
+    .industries{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #industries{
+        font-size: 26px !important;
+    }
+    .possystem{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #possystem{
+        font-size: 26px !important;
+    }
+    }
 html,body{
     overflow-x: hidden;
 }
@@ -854,9 +1008,9 @@ nav {
 }
 .container7{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 8rem;
+    padding: 0 8rem;
 }
 .ratingcard {
     width: 490px;

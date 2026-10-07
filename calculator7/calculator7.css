@@ -294,6 +294,36 @@
         font-size: 12px !important;
     }
 }
+@media (min-width: 1441px) and (max-width: 2560px){
+    #navlink a{
+        font-size: 23px !important;
+    }
+    .btn{
+        padding: 16px 58px !important;
+        font-size: 22px !important;
+    }
+    .backbutton a{
+        padding: 3rem 0rem 0 30rem !important;
+    }
+    .backbutton i{
+        font-size: 22px !important;
+    }
+    #backbtnpara{
+        font-size: 26px !important;
+    }
+    .container{
+        gap: 15rem !important;
+    }
+    #firstcolumnmainheading{
+        font-size: 40px !important;
+    }
+    #fullname{
+        font-size: 26px !important;
+    }
+    #fullnamepara{
+        font-size: 26px !important;
+    }
+}
 html,body{
     overflow-x: hidden;
 }
@@ -766,7 +796,7 @@ nav {
 }
 .container7{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 8rem;
 

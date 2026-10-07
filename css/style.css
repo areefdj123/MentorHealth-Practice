@@ -518,6 +518,218 @@
 
 
 }
+@media (min-width: 1441px) and (max-width: 2560px){
+    #navlink a{
+        font-size: 23px !important;
+    }
+    .btn{
+        padding: 16px 58px !important;
+        font-size: 22px !important;
+    }
+    .mainimg{
+        justify-content: flex-end !important;
+    }
+    header{
+        padding: 15rem !important;
+    }
+    #mainheading{
+        font-size: 60px !important;
+    }
+    #mainpara{
+        font-size: 26px !important;
+    }
+    .explorebtn{
+        font-size: 22px !important;
+        padding: 16px 48px !important;
+    }
+    #buttonpara{
+        font-size: 22px !important;
+    }
+    #hospitalheading{
+        font-size: 30px !important;
+    }
+    #hospitalpara{
+        font-size: 22px !important;
+    }
+    #doctorheading{
+        font-size: 30px !important;
+    }
+    #doctorpara{
+        font-size: 22px !important;
+    }
+    #pharmacyheading{
+        font-size: 30px !important;
+    }
+    #pharmacypara{
+        font-size: 22px !important;
+    }
+    #labheading{
+        font-size: 30px !important;
+    }
+    #labpara{
+        font-size: 22px !important;
+    }
+    .container{
+        justify-content: center !important;
+        gap: 10rem !important;
+        padding: 8rem 15rem !important;
+    }
+    .container1{
+        padding: 5rem 10rem !important;
+        gap: 10rem !important;
+    }
+    #smallheading{
+        font-size: 30px !important;
+    }
+    #secondsecmainheading{
+        font-size: 50px !important;
+        padding: 1rem 35rem !important;
+    }
+    #maintextheading{
+        font-size: 55px !important;
+    }
+    #maintextpara{
+        font-size: 26px !important;
+    }
+    .maintextbtn{
+        padding: 18px 60px !important;
+        font-size: 24px !important;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4{
+        width: 500px !important;
+    }
+    #section1heading{
+        font-size: 24px !important;
+    }
+    #section2heading,
+    #section3heading,
+    #section4heading{
+        font-size: 24px !important;
+    }
+    .thirdsecmainimg{
+        width: 41% !important;
+    }
+    #smallheading2{
+        font-size: 30px !important;
+    }
+    #fourthsectionmainheading{
+        font-size: 55px !important;
+    }
+    #fourthsectionmainpara{
+        font-size: 26px !important;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6{
+        width: 270px !important;
+    }
+    #box1para,
+    #box2para,
+    #box3para,
+    #box4para,
+    #box5para,
+    #box6para{
+        font-size: 24px !important;
+    }
+    .container2{
+        justify-content: center !important;
+        gap: 5rem !important;
+        padding: 1rem 5rem !important;
+    }
+    .container2text{
+        width: 50% !important;
+    }
+    #container2mainheading{
+        font-size: 55px !important;
+    }
+    #container2mainpara{
+        font-size: 26px !important;
+    }
+    .learnbtn{
+        padding: 18px 58px !important;
+        font-size: 24px !important;
+    }
+    .container2img{
+        width: 30% !important;
+    }
+    .ratingcard{
+        width: 1000px !important;
+        height: 440px !important;
+    }
+    #cardpersonname{
+        font-size: 30px !important;
+    }
+    #cardpersonpara{
+        font-size: 26px !important;
+    }
+    #cardpara{
+        font-size: 24px !important;
+    }
+    #groupimg{
+        max-width: 100% !important;
+    }
+    #sixthsection{
+        padding: 0 30rem !important;
+    }
+    .bigbox{
+        padding: 5rem 10rem !important;
+    }
+    #boxmainpara1{
+        font-size: 26px !important;
+    }
+    #boxmainpara2{
+        font-size: 26px !important;
+    }
+    .footerlogoimg{
+        width: 15% !important;
+    }
+    #footerlogo{
+        max-width: 50% !important;
+    }
+    .services{
+        font-size: 24px !important;
+        width: 15% !important;
+    }
+    #services{
+        font-size: 26px !important;
+    }
+    .bms{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #bms{
+        font-size: 26px !important;
+    }
+    .assurance{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #assurance{
+        font-size: 26px !important;
+    }
+    .industries{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #industries{
+        font-size: 26px !important;
+    }
+    .possystem{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #possystem{
+        font-size: 26px !important;
+    }
+
+
+}
 html,body{
     overflow-x: hidden;
 }

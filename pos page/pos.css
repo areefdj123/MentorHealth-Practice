@@ -274,6 +274,152 @@
         font-size: 12px !important;
     }
 }
+@media (min-width: 1441px) and (max-width: 2560px){
+    #navlink a{
+        font-size: 23px !important;
+    }
+    .btn{
+        padding: 16px 58px !important;
+        font-size: 22px !important;
+    }
+    .container{
+        padding: 5rem 15rem !important;
+        justify-content: center !important;
+        gap: 45rem !important;
+    }
+    #mainheading{
+        font-size: 55px !important;
+    }
+    #mainpara{
+        font-size: 26px !important;
+    }
+    #mainpara2{
+        font-size: 26px !important;
+    }
+    #mainimage{
+        max-width: 110% !important;
+    }
+    .box{
+        width: 1278px !important;
+    }
+    #firstsectionmainheading{
+        font-size: 55px !important;
+    }
+    .firstsectionbtn{
+        padding: 20px 60px !important;
+        font-size: 26px !important;
+    }
+    .container1{
+        padding: 5rem 15rem !important;
+        justify-content: center !important;
+        gap: 45rem !important;
+    }
+    #secondsectionmainheading{
+        font-size: 55px !important;
+    }
+    #secondsectionheading2,
+    #secondsectionheading3,
+    #secondsectionheading4{
+        font-size: 30px !important;
+        margin-top: .5rem !important;
+    }
+    #secondsectionpara1,
+    #secondsectionpara2,
+    #secondsectionpara3{
+        font-size: 26px !important;
+        line-height: 30px !important;
+        margin-top: .5rem !important;
+    }
+    #thirdsectionmainheading1{
+        font-size: 55px !important;
+    }
+    #thirdsectionheading2,
+    #thirdsectionheading3,
+    #thirdsectionheading4{
+        font-size: 30px !important;
+        margin-top: .5rem !important;
+    }
+    #thirdsectionpara1,
+    #thirdsectionpara2,
+    #thirdsectionpara3{
+        font-size: 26px !important;
+        line-height: 30px !important;
+        margin-top: .5rem !important;
+    }
+    .container7{
+        padding: 0 15rem !important;
+        gap: 15rem !important;
+    }
+    .ratingcard{
+        width: 1000px !important;
+        height: 440px !important;
+    }
+    #cardpersonname{
+        font-size: 30px !important;
+    }
+    #cardpersonpara{
+        font-size: 26px !important;
+    }
+    #cardpara{
+        font-size: 24px !important;
+    }
+    #groupimg{
+        max-width: 100% !important;
+    }
+    #sixthsection{
+        padding: 0 30rem !important;
+    }
+    .bigbox{
+        padding: 5rem 10rem !important;
+    }
+    #boxmainpara1{
+        font-size: 26px !important;
+    }
+    #boxmainpara2{
+        font-size: 26px !important;
+    }
+    .footerlogoimg{
+        width: 15% !important;
+    }
+    #footerlogo{
+        max-width: 50% !important;
+    }
+    .services{
+        font-size: 24px !important;
+        width: 15% !important;
+    }
+    #services{
+        font-size: 26px !important;
+    }
+    .bms{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #bms{
+        font-size: 26px !important;
+    }
+    .assurance{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #assurance{
+        font-size: 26px !important;
+    }
+    .industries{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #industries{
+        font-size: 26px !important;
+    }
+    .possystem{
+        width: 15% !important;
+        font-size: 24px !important;
+    }
+    #possystem{
+        font-size: 26px !important;
+    }
+}
 html,body{
     overflow-x: hidden;
 }
@@ -622,9 +768,9 @@ nav {
 }
 .container7{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 8rem;
+    padding: 0 8rem 5rem;
 }
 .ratingcard {
     width: 490px;
