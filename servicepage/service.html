@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -55,22 +56,22 @@
     <header>
         <div class="container">
         <div class="maintext">
-                <h1 id="mainheading">Your Complete <br> <span style="color: rgba(41, 63, 204, 1)">Healthcare Partner</span></h1>
-                <p id="mainpara">From preventive care to digital tools, we provide all-in-one<br> solutions for individuals and organizations.</p>
+                <h1 id="mainheading" data-aos="fade-up" data-aos-duration="700">Your Complete <br> <span style="color: rgba(41, 63, 204, 1)">Healthcare Partner</span></h1>
+                <p id="mainpara" data-aos="fade-up" data-aos-duration="700">From preventive care to digital tools, we provide all-in-one<br> solutions for individuals and organizations.</p>
             </div>
-                <img id="mainimg" src="/assets/headerimg.png" alt="">
+                <img id="mainimg" data-aos="fade-up-left" data-aos-duration="600" src="/assets/headerimg.png" alt="">
         </div>
     </header>
     <section id="firstsection">
-        <h1 id="firstsectionmainheading">Our Comprehensive <br><span style="color: rgba(41, 63, 204, 1);">Healthcare Solutions</span></h1>
-        <p id="firstsectionmainpara">Explore the wide range of services that <br> cater to all your health needs.</p>
+        <h1 id="firstsectionmainheading" data-aos="fade-up" data-aos-duration="700">Our Comprehensive <br><span style="color: rgba(41, 63, 204, 1);">Healthcare Solutions</span></h1>
+        <p id="firstsectionmainpara" data-aos="fade-up" data-aos-duration="700">Explore the wide range of services that <br> cater to all your health needs.</p>
         <div class="cards">
-            <div class="card1">
+            <div class="card1" data-aos="fade-up" data-aos-duration="400">
                 <img id="card1img" src="/assets/firstcard.jpg" alt="">
                 <h1 id="card1heading">Health Assurance Plans</h1>
                 <p id="card1para">Custom health plans for financial protection & easy healthcare access.</p>
             </div>
-            <div class="card2">
+            <div class="card2" data-aos="fade-up" data-aos-duration="600">
                 <img id="card2img" src="/assets/card2.jpg" alt="">
                 <h1 id="card2heading">Preventive Care Solutions</h1>
                 <div class="card2option1">
@@ -86,7 +87,7 @@
                     <p id="card2para3">Wellness Programs</p>
                 </div>
             </div>
-            <div class="card3">
+            <div class="card3" data-aos="fade-up" data-aos-duration="800">
                 <img id="card3img" src="/assets/card3.jpg" alt="">
                 <h1 id="card3heading">Cashless OPD & IPD Access</h1>
                 <div class="card3option1">
@@ -98,12 +99,12 @@
                     <p id="card3para2">Use funds for cashless services</p>
                 </div>
             </div>
-            <div class="card4">
+            <div class="card4" data-aos="fade-up" data-aos-duration="400">
                 <img id="card4img" src="/assets/card4.jpg" alt="">
                 <h1 id="card4heading">Telemedicine & Virtual Triage</h1>
                 <p id="card4para">24/7 consultations for early diagnosis and better health management.</p>
             </div>
-            <div class="card5">
+            <div class="card5" data-aos="fade-up" data-aos-duration="600">
                 <img id="card5img" src="/assets/card5.jpg" alt="">
                 <h1 id="card5heading">Employee Health Management Tools</h1>
                 <div class="card5option1">
@@ -115,7 +116,7 @@
                     <p id="card5para2">Employee Wellness Portal</p>
                 </div>
             </div>
-            <div class="card6">
+            <div class="card6" data-aos="fade-up" data-aos-duration="800">
                 <img id="card5img" src="/assets/card5.jpg" alt="">
                 <h1 id="card6heading">Custom Solutions for Insurers & Brokers</h1>
                 <p id="card6para">Access our tech and network under your brand</p>
@@ -124,7 +125,7 @@
     </section>
     <section id="fifthsection">
         <div class="container">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
@@ -132,7 +133,7 @@
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
             <div class="groupimage">
-                <img id="groupimg" src="/assets/Group 7.png" alt="">
+                <img id="groupimg" data-aos="fade-up-left" data-aos-duration="700" src="/assets/Group 7.png" alt="">
         </div>
     </section>
     <section id="sixthsection">
@@ -203,6 +204,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

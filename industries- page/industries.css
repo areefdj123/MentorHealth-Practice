@@ -352,6 +352,9 @@
         padding: 8rem 5rem 0 !important;
     }
 }
+html,body{
+    overflow-x: hidden;
+}
 * {
     margin: 0px;
     padding: 0px;

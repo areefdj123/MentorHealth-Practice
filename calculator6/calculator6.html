@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -53,20 +54,20 @@
         </nav>
     </div>
     <header>
-        <div class="backbutton">
+        <div class="backbutton" data-aos="fade-left" data-aos-duration="700">
             <a class="backoption" href="/calculator5/claculator5.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p id="backbtnpara">Back</p>
             </a>
         </div>
-        <h1 id="mainheading">Calculate Your Assurance</h1>
+        <h1 id="mainheading" data-aos="fade-up" data-aos-duration="700">Calculate Your Assurance</h1>
     </header>
         <section id="firstsection">
         <div class="container">
-            <h1 id="firstsectionmainheading">Your Selected Plan Is Unified.</h1>
+            <h1 id="firstsectionmainheading" data-aos="fade-right" data-aos-duration="700">Your Selected Plan Is Unified.</h1>
             <div class="smallboxes">
 
-                <div class="smallbox1">
+                <div class="smallbox1" data-aos="fade-up" data-aos-duration="400">
                     <h1 id="smallbox1heading">Age Band</h1>
                     <p id="firstpara">0-17</p>
                     <p id="secondpara">18-19</p>
@@ -74,7 +75,7 @@
                     <p id="fourthpara">60-64</p>
                     <p id="fifthpara">65</p>
                 </div>
-                <div class="smallbox2">
+                <div class="smallbox2" data-aos="fade-up" data-aos-duration="600">
                     <h1 id="smallbox2heading">PLan A (Lives)</h1>
                     <div class="smallbox2option1">
                     <p id="smallbox2option1para">0</p>
@@ -112,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="smallbox3">
+            <div class="smallbox3" data-aos="fade-up" data-aos-duration="800">
                 <h1 id="smallbox3heading">PLan A (Lives)</h1>
                 <div class="smallbox2option1">
                     <p id="smallbox2option1para">0</p>
@@ -151,8 +152,8 @@
     </section>
     <section id="secondsection">
         <div class="container1">
-            <h1 id="firstsectionmainheading">Your Selected Plan Is Maternity.</h1>
-            <div class="smallboxes1">
+            <h1 id="firstsectionmainheading" data-aos="fade-right" data-aos-duration="700">Your Selected Plan Is Maternity.</h1>
+            <div class="smallboxes1" data-aos="fade-up" data-aos-duration="400">
 
                 <div class="smallbox1">
                     <h1 id="smallbox1heading">Age Band</h1>
@@ -162,7 +163,7 @@
                     <p id="fourthpara">36-40</p>
                     <p id="fifthpara">41-45</p>
                 </div>
-                <div class="smallbox2">
+                <div class="smallbox2" data-aos="fade-up" data-aos-duration="800">
                     <h1 id="smallbox2heading">PLan A (Lives)</h1>
                     <div class="smallbox2option1">
                     <p id="smallbox2option1para">0</p>
@@ -202,7 +203,7 @@
             </div>
             </div>
     </section>
-    <div class="endingline">
+    <div class="endingline" data-aos="fade-up" data-aos-duration="700">
             <p id="endingpara">Note: Package details without premium coverage will continue.</p>
             <a href="/calculator7/calculator7.html">
                 <button class="nextbtn">Next</button>
@@ -210,7 +211,7 @@
         </div>
         <section id="fifthsection">
         <div class="container7">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700"> 
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
@@ -218,7 +219,7 @@
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
             <div class="groupimage">
-                <img id="groupimg" src="/assets/Group 7.png" alt="">
+                <img id="groupimg" data-aos="fade-up-left" data-aos-duration="700" src="/assets/Group 7.png" alt="">
         </div>
     </section>
     <section id="sixthsection">
@@ -289,6 +290,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

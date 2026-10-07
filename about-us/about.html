@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -55,7 +56,7 @@
         </nav>
     </div>
     <header>
-        <div class="maintext">
+        <div class="maintext" data-aos="fade-up" data-aos-duration="700">
             <h1 id="mainheading">Building a Healthier <br> Future Together</h1>
             <p id="mainpara">Effortless, cashless, and preventive healthcare<br> solutions tailored for organizations, insurers, <br> and individuals.</p>
             <div class="link">
@@ -71,10 +72,10 @@
         <div class="container">
 
             <div class="firstsectionmaintext">
-                <h1 id="firstsectionmainheading">Revolutionizing <span style="color: rgba(41, 63, 204, 1);">Healthcare</span> with Technology, Trust, and Care Across Pakistan</h1>
-                <p id="firstsectionmainpara">Mentor Health is Pakistan’s first tech-enabled, Shariah-compliant health fintech ecosystem with a licensed Third Party Administrator (TPA) license from SECP. We leverage technology, our vast provider network, and deep industry expertise to offer solutions that extend beyond traditional financial coverage. Our mission is to provide a seamless healthcare journey for every individual and organization in Pakistan.</p>
+                <h1 id="firstsectionmainheading" data-aos="fade-up" data-aos-duration="700">Revolutionizing <span style="color: rgba(41, 63, 204, 1);">Healthcare</span> with Technology, Trust, and Care Across Pakistan</h1>
+                <p id="firstsectionmainpara" data-aos="fade-up" data-aos-duration="700">Mentor Health is Pakistan’s first tech-enabled, Shariah-compliant health fintech ecosystem with a licensed Third Party Administrator (TPA) license from SECP. We leverage technology, our vast provider network, and deep industry expertise to offer solutions that extend beyond traditional financial coverage. Our mission is to provide a seamless healthcare journey for every individual and organization in Pakistan.</p>
             </div>
-            <div class="firstsectionmainimg">
+            <div class="firstsectionmainimg" data-aos="fade-up-left" data-aos-duration="600">
                 <img id="firstsectionmainimage" src="/assets/picture.png" alt="">
             </div>
                 
@@ -82,11 +83,11 @@
     </section>
     <section id="secondsection">
         <div class="container">
-            <div class="secondsectionimg">
+            <div class="secondsectionimg" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="secondsectionmainimage" src="/assets/secondimg.png" alt="">
             </div>
             <div class="secondsectionmaintext">
-                <h1 id="secondsectionmainheading">Empowering Pakistan with seamless, Shariah compliant <span style="color: rgba(41, 63, 204, 1);">healthcare solutions</span> for a healthier tomorrow.</h1>
+                <h1 id="secondsectionmainheading" data-aos="fade-up" data-aos-duration="700">Empowering Pakistan with seamless, Shariah compliant <span style="color: rgba(41, 63, 204, 1);">healthcare solutions</span> for a healthier tomorrow.</h1>
             </div>
         </div>
 
@@ -94,38 +95,38 @@
     <section id="thirdsection">
         <div class="container">
             <div class="thirdsectionmaintext">
-                <h1 id="thirdsectionmainheading">Your Partner in <span style="color: rgba(41, 63, 204, 1);">Health & Care</span></h1>
+                <h1 id="thirdsectionmainheading" data-aos="fade-up" data-aos-duration="700">Your Partner in <span style="color: rgba(41, 63, 204, 1);">Health & Care</span></h1>
                 <div class="boxes">
-                    <div class="box1">
+                    <div class="box1" data-aos="fade-up-right" data-aos-duration="400">
                         <p id="box1p1">Nationwide Access</p>
                     </div>
-                    <div class="box2">
+                    <div class="box2" data-aos="fade-up-right" data-aos-duration="600">
                         <p id="box2p1">Preventive Care</p>
                     </div>
-                    <div class="box3">
+                    <div class="box3" data-aos="fade-up-right" data-aos-duration="800">
                         <p id="box3p1">AI-Driven Claims</p>
                     </div>
-                    <div class="box4">
+                    <div class="box4" data-aos="fade-up-right" data-aos-duration="1000">
                         <p id="box4p1">Cashless Services</p>
                     </div>
                 </div>
             </div>
             <div class="thirdsectionimg">
-                <img id="thirdsectionmainimage" src="/assets/thirdsectionimg.jpg" alt="">
-                <p id="imagebottompara">We cover 63 cities, ensuring comprehensive healthcare access nationwide.</p>
+                <img data-aos="fade-up-left" data-aos-duration="600" id="thirdsectionmainimage" src="/assets/thirdsectionimg.jpg" alt="">
+                <p id="imagebottompara" data-aos="fade-up" data-aos-duration="700">We cover 63 cities, ensuring comprehensive healthcare access nationwide.</p>
             </div>
         </div>
     </section>
     <section id="fifthsection">
         <div class="container">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
                 <img id="starsimg" src="/assets/stars.png" alt="">
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
-            <div class="groupimage">
+            <div class="groupimage" data-aos="fade-up-left" data-aos-duration="700">
                 <img id="groupimg" src="/assets/Group 7.png" alt="">
         </div>
     </section>
@@ -198,6 +199,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

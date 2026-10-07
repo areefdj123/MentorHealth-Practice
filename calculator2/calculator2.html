@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -53,7 +54,7 @@
         </nav>
     </div>
     <header>
-        <div class="backbutton">
+        <div class="backbutton" data-aos="fade-left" data-aos-duration="700">
             <a class="backoption" href="/calculator1/calculator1.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p id="backbtnpara">Back</p>
@@ -61,7 +62,7 @@
         </div>
         <div class="container">
             <div class="rightside">
-                <div class="planforinput">
+                <div class="planforinput" data-aos="fade-up" data-aos-duration="700">
                     <label for="planfor">Plan For</label>
                     <select name="planfor" id="planfor">
                         <option value="employee">Empolyee</option>
@@ -69,40 +70,40 @@
                         <option value="children">Empolyee,Spouse & Childrens</option>
                     </select>
                 </div>
-                <p id="radiobtnpara">Do you want maternity coverage?</p>
-                <div class="radiobuttons">
+                <p id="radiobtnpara" data-aos="fade-up" data-aos-duration="700">Do you want maternity coverage?</p>
+                <div class="radiobuttons" data-aos="fade-up" data-aos-duration="700">
 
-                    <div class="radiobtnyes">
+                    <div class="radiobtnyes" data-aos="fade-up" data-aos-duration="700">
                         <input type="radio">
                         <p id="radioyespara">Yes</p>
                     </div>
-                    <div class="radiobtnno">
+                    <div class="radiobtnno" data-aos="fade-up" data-aos-duration="700">
                         <input type="radio">
                         <p id="radionopara">No</p>
                     </div>
                 </div>
-                <div class="plancategoryinput">
+                <div class="plancategoryinput" data-aos="fade-up" data-aos-duration="700">
                     <label for="category">Plan Category</label>
                     <select name="category" id="category">
                         <option value="unify">Unified Plan</option>
                         <option value="custom">Custom Plan</option>
                     </select>
                 </div>
-                <a href="/calculator3/calculator3.html">
+                <a href="/calculator3/calculator3.html" data-aos="fade-up" data-aos-duration="700">
                     <button class="nextbtn">Next</button>
                 </a>
             </div>
             <div class="leftside">
-                <h1 id="mainheading">Calculate Your Assurance</h1>
-                <img id="mainimage" src="/assets/calculator2img.png" alt="">
-                <button class="leftsidebtn">Book a Call</button>
+                <h1 id="mainheading" data-aos="fade-up" data-aos-duration="700">Calculate Your Assurance</h1>
+                <img id="mainimage" data-aos="fade-up-left" data-aos-duration="700" src="/assets/calculator2img.png" alt="">
+                <button class="leftsidebtn" data-aos="fade-up" data-aos-duration="700">Book a Call</button>
             </div>
         </div>
-        <p id="endingpara">Note: Minimum number of spouses needs to be five in order to give the Maternity benefit</p>
+        <p id="endingpara" data-aos="fade-up" data-aos-duration="700">Note: Minimum number of spouses needs to be five in order to give the Maternity benefit</p>
         </header>
         <section id="fifthsection">
         <div class="container7">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
@@ -110,7 +111,7 @@
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
             <div class="groupimage">
-                <img id="groupimg" src="/assets/Group 7.png" alt="">
+                <img id="groupimg" data-aos="fade-up-left" data-aos-duration="700" src="/assets/Group 7.png" alt="">
         </div>
     </section>
     <section id="sixthsection">
@@ -181,6 +182,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -53,42 +54,42 @@
         </nav>
     </div>
     <header>
-        <div class="backbutton">
+        <div class="backbutton" data-aos="fade-left" data-aos-duration="700">
             <a class="backoption" href="/index.html">
                 <i class="fa-solid fa-arrow-left"></i>
                 <p id="backbtnpara">Back</p>
             </a>
         </div>
-        <h1 id="mainheading">My Basic Info</h1>
+        <h1 id="mainheading" data-aos="fade-up" data-aos-duration="700">My Basic Info</h1>
         <div class="container">
             <div class="rightside">
-                <div class="firstnameinput">
+                <div class="firstnameinput" data-aos="fade-right" data-aos-duration="700">
                     <label for="first-name">First Name</label>
                     <input type="name" id="firstname" name="First Name" placeholder="Name...">
                 </div>
-                <div class="phonenumberinput">
+                <div class="phonenumberinput" data-aos="fade-right" data-aos-duration="700">
                     <label for="phone-number">Mobile Number</label>
                     <input type="number" id="mobilenumber" placeholder="Mobile-Number...">
                 </div>
-                <div class="companyinput">
+                <div class="companyinput" data-aos="fade-right" data-aos-duration="700">
                     <label for="company-name">Company</label>
                     <input type="name" name="company-name" id="company" placeholder="Company-Name...">
                 </div>
                 
             </div>
             <div class="leftside">
-                <div class="lastnameinput">
+                <div class="lastnameinput" data-aos="fade-left" data-aos-duration="700">
                     <label for="lastname">Last Name</label>
                     <input type="name" name="last-name" id="lastname"
                     placeholder="Last-Name">
                 </div>
-                <div class="emailinput">
+                <div class="emailinput" data-aos="fade-left" data-aos-duration="700">
                     <label for="email">Email</label>
                     <input type="email" name="Email" id="email" placeholder="Email">
                 </div>
             </div>
         </div>
-            <div class="buttons">
+            <div class="buttons" data-aos="fade-up" data-aos-duration="700">
                 <a class="backoption" href="/index.html">
                     <button class="backbtn">Back</button>
                 </a>
@@ -99,7 +100,7 @@
     </header>
     <section id="fifthsection">
         <div class="container7">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
@@ -107,7 +108,7 @@
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
             <div class="groupimage">
-                <img id="groupimg" src="/assets/Group 7.png" alt="">
+                <img id="groupimg" data-aos="fade-up-left" data-aos-duration="700" src="/assets/Group 7.png" alt="">
         </div>
     </section>
     <section id="sixthsection">
@@ -178,6 +179,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

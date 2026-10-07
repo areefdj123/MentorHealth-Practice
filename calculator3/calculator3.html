@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="megamenu">
@@ -53,7 +54,7 @@
         </nav>
     </div>
     <header>
-        <div class="backbutton">
+        <div class="backbutton" data-aos="fade-left" data-aos-duration="700">
             <a class="backoption" href="">
                 <a href="/calculator2/calculator2.html">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -61,12 +62,12 @@
                 </a>
             </a>
         </div>
-        <h1 id="mainheading">Calculate Your Assurance</h1>
+        <h1 id="mainheading" data-aos="fade-up" data-aos-duration="700">Calculate Your Assurance</h1>
         <div class="container">
             <div class="rightside">
 
                 <div class="boxes">
-                    <div class="box1">
+                    <div class="box1" data-aos="fade-up-right" data-aos-duration="700">
                         <div class="inbox1">
                             <h1 id="box1heading">Your Selected Plan Is Custom.</h1>
                             <div class="boxinput">
@@ -81,7 +82,7 @@
                         </div>
                         
                     </div>
-                    <div class="box2">
+                    <div class="box2" data-aos="fade-up-right" data-aos-duration="700">
                         <div class="inbox2">
                             <h1 id="box2heading">Your Maternity Plan</h1>
                             <label for="plancategory">Your Plan Category</label>
@@ -95,11 +96,11 @@
                 </div>
             </div>
             <div class="leftside">
-                <img id="leftsidemainimage" src="/assets/calculatorimg3.png" alt="">
-                <button class="leftsidebtn">Book a call</button>
+                <img id="leftsidemainimage" data-aos="fade-up-left" data-aos-duration="700" src="/assets/calculatorimg3.png" alt="">
+                <button class="leftsidebtn" data-aos="fade-up" data-aos-duration="700">Book a call</button>
             </div>
         </div>
-        <div class="endingline">
+        <div class="endingline" data-aos="fade-up" data-aos-duration="700">
             <p id="endingpara">Note: Package details without premium coverage will continue.</p>
             <a href="/calculator4/calculator4.html">
                 <button class="nextbtn">Next</button>
@@ -108,7 +109,7 @@
         </header>
         <section id="fifthsection">
         <div class="container7">
-            <div class="ratingcard">
+            <div class="ratingcard" data-aos="fade-up-right" data-aos-duration="700">
                 <img id="ratingcardimg" src="/assets/footerimage.jpg" alt="">
                 <h1 id="cardpersonname">Rajeev Kunwar</h1>
                 <p id="cardpersonpara">Global VP - HR, EvolveBPM LLC</p>
@@ -116,7 +117,7 @@
                 <p id="cardpara">Health assurance helps us a happier workforce. this is transformative.</p>
             </div>
             <div class="groupimage">
-                <img id="groupimg" src="/assets/Group 7.png" alt="">
+                <img id="groupimg" data-aos="fade-up-left" data-aos-duration="700" src="/assets/Group 7.png" alt="">
         </div>
     </section>
     <section id="sixthsection">
@@ -187,6 +188,13 @@
             const hidesidebar = document.querySelector('.sidebar')
             hidesidebar.style.display = 'none';
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+        
     </script>
 </body>
 </html>

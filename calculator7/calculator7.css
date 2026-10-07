@@ -294,7 +294,9 @@
         font-size: 12px !important;
     }
 }
-
+html,body{
+    overflow-x: hidden;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -757,6 +759,7 @@ nav {
     border-radius: 9px;
     background-color: rgba(0, 72, 254, 1);
     border: none;
+    cursor: pointer;
 }
 #fifthsection{
     padding: 5rem 0;
