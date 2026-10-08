@@ -21,9 +21,11 @@
         width: 100% !important;
         gap: 7rem !important;
     }
-
+    .mainlogoimg{
+        width: 25% !important;
+    }
     #mainlogo {
-        max-width: 30% !important;
+        max-width: 100% !important;
     }
 
     .hamburger {
@@ -39,6 +41,7 @@
     #mainheading {
         font-size: 32px !important;
         text-align: center !important;
+        margin-top: 3rem !important;
     }
 
     #mainheading br {
@@ -239,7 +242,9 @@
     .btn {
         display: none !important;
     }
-
+    .mainlogoimg{
+        width: 15% !important;
+    }
     .mainbutton {
         display: none !important;
     }
@@ -252,7 +257,7 @@
     }
 
     #mainlogo {
-        max-width: 13% !important;
+        max-width: 100% !important;
     }
 
     .hamburger {
@@ -430,6 +435,9 @@
 }
 
 @media (min-width:1024px) and (max-width:1200px) {
+    nav{
+        padding: 1rem 2rem !important;
+    }
     header{
         padding: 8rem 5rem !important;
     }
@@ -753,9 +761,11 @@ nav {
     padding: 1rem 5rem;
     border-bottom: 2px solid #F0F1FF;
 }
-
+.mainlogoimg{
+    width: 10%;
+}
 #mainlogo {
-    max-width: 10%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
