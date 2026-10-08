@@ -76,7 +76,9 @@
         padding: 1rem !important;
         font-size: 24px !important;
     }
-
+    #secondsecmainheading{
+        display: none !important;
+    }
     .container {
         padding: 1rem !important;
     }
