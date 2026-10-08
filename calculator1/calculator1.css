@@ -213,7 +213,7 @@
         font-size: 22px !important;
     }
     .backbutton a{
-        padding: 3rem 0rem 0 30rem !important;
+        padding: 3rem 0rem 0 15rem !important;
     }
     .backbutton i{
         font-size: 22px !important;
@@ -222,7 +222,7 @@
         font-size: 26px !important;
     }
     #mainheading{
-        padding: 5rem 40rem 0 !important;
+        padding: 5rem 23rem 0 !important;
     }
     .container{
         gap: 397px !important;
@@ -240,7 +240,7 @@
         font-size: 24px !important;
     }
     .buttons{
-        padding: 5rem 35rem 10rem !important;
+        padding: 5rem 22rem 10rem !important;
     }
     .backbtn{
         width: 145px !important;
@@ -269,11 +269,14 @@
     #cardpara{
         font-size: 24px !important;
     }
+    .groupimage{
+        width: 70% !important;
+    }
     #groupimg{
         max-width: 100% !important;
     }
     #sixthsection{
-        padding: 0 30rem !important;
+        padding: 0 18rem !important;
     }
     .bigbox{
         padding: 5rem 10rem !important;
@@ -291,39 +294,39 @@
         max-width: 50% !important;
     }
     .services{
-        font-size: 24px !important;
+        font-size: 20px !important;
         width: 15% !important;
     }
     #services{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .bms{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #bms{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .assurance{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #assurance{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .industries{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #industries{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .possystem{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #possystem{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
 }
 html,body{

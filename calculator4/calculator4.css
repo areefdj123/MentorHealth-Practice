@@ -286,7 +286,7 @@
         padding-top: 5rem !important;
     }
     #firstsection{
-        padding: 0 30rem 2rem !important;
+        padding: 0 15rem 2rem !important;
     }
     .container{
         padding: 3rem 5rem !important;
@@ -314,10 +314,11 @@
         font-size: 16px !important;
     }
     #secondsection{
-        padding: 0 30rem 3rem !important;
+        padding: 0 15rem 3rem !important;
     }
     .container1{
         justify-content: flex-start !important;
+        padding: 3rem 5rem !important;
         gap: 10rem !important;
         width: 70% !important;
     }
@@ -332,7 +333,7 @@
         font-size: 16px !important;
     }
     .endingline{
-        padding: 0 30rem 2rem !important;
+        padding: 0 15rem 2rem !important;
     }
     #endingpara{
         font-size: 26px !important;
@@ -359,11 +360,14 @@
     #cardpara{
         font-size: 24px !important;
     }
+    .groupimage{
+        width: 70% !important;
+    }
     #groupimg{
         max-width: 100% !important;
     }
     #sixthsection{
-        padding: 0 30rem !important;
+        padding: 0 18rem !important;
     }
     .bigbox{
         padding: 5rem 10rem !important;
@@ -381,39 +385,39 @@
         max-width: 50% !important;
     }
     .services{
-        font-size: 24px !important;
+        font-size: 20px !important;
         width: 15% !important;
     }
     #services{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .bms{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #bms{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .assurance{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #assurance{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .industries{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #industries{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .possystem{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #possystem{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
 }
 html,body{

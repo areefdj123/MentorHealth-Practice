@@ -303,7 +303,7 @@
         font-size: 22px !important;
     }
     .backbutton a{
-        padding: 3rem 0rem 0 30rem !important;
+        padding: 3rem 0rem 0 18rem !important;
     }
     .backbutton i{
         font-size: 22px !important;
@@ -312,6 +312,7 @@
         font-size: 26px !important;
     }
     .container{
+        padding: 5rem 15rem !important;
         gap: 15rem !important;
     }
     #firstcolumnmainheading{
@@ -322,6 +323,158 @@
     }
     #fullnamepara{
         font-size: 26px !important;
+    }
+    #mobnumber,
+    #mobnumberpara,
+    #email,
+    #emailpara,
+    #company,
+    #companypara{
+        font-size: 26px !important;
+    }
+    #secondcolumnmainheading{
+        font-size: 40px !important;
+    }
+    #planfor,
+    #planforpara,
+    #maternity,
+    #maternitypara,
+    #category,
+    #categorypara{
+        font-size: 26px !important;
+    }
+    #thirdcolumnmainimage{
+        max-width: 120% !important;
+    }
+    .container1{
+        padding: 0 15rem 5rem !important;
+    }
+    #mainheading{
+        font-size: 40px !important;
+    }
+    .box1, .box2{
+        width: 196px !important;
+        height: 129px !important;
+    }
+    #box1heading,
+    #box2heading{
+        font-size: 26px !important;
+    }
+    #box1para,
+    #box2para{
+        font-size: 24px !important;
+    }
+    #thirdsection{
+        padding: 0 15rem 5rem !important;
+    }
+    #thirdsectionmainheading{
+        font-size: 40px !important;
+    }
+    #thirdsectionpara{
+        font-size: 26px !important;
+    }
+    .flexoption i{
+        font-size: 24px !important;
+    }
+    .container2{
+        padding: 5rem 0rem !important;
+        justify-content: center !important;
+        gap: 10rem !important;
+    }
+    #onecolumnmainheading{
+        font-size: 40px !important;
+    }
+    #onecolumnmainheading{
+        font-size: 40px !important;
+    }   
+    #twocolumnmainimg{
+        max-width: 100% !important;
+    }
+    #threecolumnmainheading1{
+        font-size: 30px !important;
+    }
+    #threecolumnmainheading2{
+        font-size: 40px !important;
+    }
+    .lastbtn{
+        padding: 18px 58px !important;
+        font-size: 26px !important;
+    }
+    .container7{
+        padding: 0 15rem !important;
+        gap: 15rem !important;
+    }
+    .ratingcard{
+        width: 1000px !important;
+        height: 440px !important;
+    }
+    #cardpersonname{
+        font-size: 30px !important;
+    }
+    #cardpersonpara{
+        font-size: 26px !important;
+    }
+    #cardpara{
+        font-size: 24px !important;
+    }
+    .groupimage{
+        width: 70% !important;
+    }
+    #groupimg{
+        max-width: 100% !important;
+    }
+    #sixthsection{
+        padding: 0 18rem !important;
+    }
+    .bigbox{
+        padding: 5rem 10rem !important;
+    }
+    #boxmainpara1{
+        font-size: 26px !important;
+    }
+    #boxmainpara2{
+        font-size: 26px !important;
+    }
+    .footerlogoimg{
+        width: 15% !important;
+    }
+    #footerlogo{
+        max-width: 50% !important;
+    }
+    .services{
+        font-size: 20px !important;
+        width: 15% !important;
+    }
+    #services{
+        font-size: 22px !important;
+    }
+    .bms{
+        width: 15% !important;
+        font-size: 20px !important;
+    }
+    #bms{
+        font-size: 22px !important;
+    }
+    .assurance{
+        width: 15% !important;
+        font-size: 20px !important;
+    }
+    #assurance{
+        font-size: 22px !important;
+    }
+    .industries{
+        width: 15% !important;
+        font-size: 20px !important;
+    }
+    #industries{
+        font-size: 22px !important;
+    }
+    .possystem{
+        width: 15% !important;
+        font-size: 20px !important;
+    }
+    #possystem{
+        font-size: 22px !important;
     }
 }
 html,body{

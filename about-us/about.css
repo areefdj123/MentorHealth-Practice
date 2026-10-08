@@ -350,11 +350,14 @@
     #cardpara{
         font-size: 24px !important;
     }
+    .groupimage{
+        width: 70% !important;
+    }
     #groupimg{
         max-width: 100% !important;
     }
     #sixthsection{
-        padding: 0 30rem !important;
+        padding: 0 18rem !important;
     }
     .bigbox{
         padding: 5rem 10rem !important;
@@ -372,39 +375,39 @@
         max-width: 50% !important;
     }
     .services{
-        font-size: 24px !important;
+        font-size: 20px !important;
         width: 15% !important;
     }
     #services{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .bms{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #bms{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .assurance{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #assurance{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .industries{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #industries{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
     .possystem{
         width: 15% !important;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
     #possystem{
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
 }
 html,body{
