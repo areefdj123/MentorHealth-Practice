@@ -84,6 +84,10 @@
     #box4para {
         font-size: 16px !important;
     }
+    .container7{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
+    }
     .ratingcard{
         width: 280px !important;
     }
@@ -242,6 +246,11 @@
     }
     .possystem{
         font-size: 12px !important;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1440px){
+    header{
+        min-height: 40vh !important;
     }
 }
 @media (min-width: 1441px) and (max-width: 2560px){

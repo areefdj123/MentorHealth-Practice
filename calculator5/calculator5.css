@@ -179,7 +179,7 @@
         padding: 0 3rem !important;
     }
 }
-@media (max-width: 1024px) and (max-width: 1200px){
+@media (min-width: 1024px) and (max-width: 1200px){
     nav{
         padding: 1rem 3rem !important;
     }

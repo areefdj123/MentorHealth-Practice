@@ -43,7 +43,9 @@
     #mainpara {
         font-size: 16px !important;
     }
-
+    #mainpara br{
+        display: none !important;
+    }
     #mainimg {
         max-width: 100% !important;
     }
@@ -96,6 +98,10 @@
 
     #card6para {
         font-size: 16px !important;
+    }
+    .container7{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
     }
     .ratingcard{
         width: 280px !important;

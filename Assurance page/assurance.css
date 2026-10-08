@@ -104,6 +104,10 @@
         flex-direction: column !important;
         padding: 0 1rem !important;
     }
+    .container7{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
+    }
     .ratingcard{
         width: 280px !important;
     }
